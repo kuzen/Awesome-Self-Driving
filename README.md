@@ -47,6 +47,7 @@ The Awesome Self-Driving list
 - [fmm](https://github.com/cyang-kth/fmm) - Fast map matching, an open source framework in C++
 ## 3.1. Lanelet2
 - [MapToolbox](https://github.com/autocore-ai/MapToolbox) - Plugins to make Lanelet2/vector_map in Unity
+- [AssureMappingTools](https://github.com/hatem-darweesh/assuremappingtools) - Desktop based tool for viewing, editing and saving road network maps for autonomous vehicle platforms such as Autoware.
 - [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2) - Map handling framework for automated driving
 - [lanelet_rviz_plugin_ros](https://github.com/coincar-sim/lanelet_rviz_plugin_ros) - Rviz Plugin for displaying a lanelet2 map.
 
@@ -159,6 +160,9 @@ The Awesome Self-Driving list
 
 - [imu_tools](https://github.com/ccny-ros-pkg/imu_tools) - ROS tools for IMU devices
 - [PPPLib](https://github.com/heiwa0519/PPPLib) - Precise Point Positioning Library
+- [RTKLIB](https://github.com/tomojitakasu/RTKLIB) - RTKLIB is an open source program package for standard and precise positioning
+with GNSS (global navigation satellite system).
+- [rtklib_ros_bridge](https://github.com/MapIV/rtklib_ros_bridge) - rtklib_ros_bridge is a package that outputs the latitude and longitude, satellite reception status, altitude, ecef xyz, ecef velocity vector, and Time of Week (GPS Time) calculated by RTKLIB as ROS messages.
 - [ntpd_driver](https://github.com/vooon/ntpd_driver) - This node convert ROS TimeReference message to ntpd-shm format.
 - [eagleye](https://github.com/MapIV/eagleye) - Precise localization based on GNSS and IMU.
 - [GPS_IMU_Kalman_Filter](https://github.com/karanchawla/GPS_IMU_Kalman_Filter) - Fusing GPS, IMU and Encoder sensors for accurate state estimation.
