@@ -11,22 +11,23 @@ The Awesome Self-Driving list
 - [4. Semantic](#4-semantic)
 - [5. Calibration](#5-calibration)
 - [6. Detection](#6-detection)
-- [7. SLAM](#7-slam)
-  - [7.1. Lidar-based](#71-lidar-based)
-  - [7.2. Camera-based](#72-camera-based)
-  - [7.3. Lidar-Camera-based](#73-lidar-camera-based)
-  - [7.4. Odometry](#74-odometry)
-  - [7.5. Registration](#75-registration)
-  - [7.6. Optimization](#76-optimization)
-  - [7.7. Loop Closing](#77-loop-closing)
-  - [7.8. Other](#78-other)
-- [8. GPS, IMU](#8-gps-imu)
-- [9. Dataset](#9-dataset)
-- [10. Web](#10-web)
-- [11. Study](#11-study)
-- [12. Other Tool](#12-other-tool)
-- [13. Other Awesome](#13-other-awesome)
-- [14. For Chinese](#14-for-chinese)
+- [7. Control](#7-control)
+- [8. SLAM](#8-slam)
+  - [8.1. Lidar-based](#81-lidar-based)
+  - [8.2. Camera-based](#82-camera-based)
+  - [8.3. Lidar-Camera-based](#83-lidar-camera-based)
+  - [8.4. Odometry](#84-odometry)
+  - [8.5. Registration](#85-registration)
+  - [8.6. Optimization](#86-optimization)
+  - [8.7. Loop Closing](#87-loop-closing)
+  - [8.8. Other](#88-other)
+- [9. GPS, IMU](#9-gps-imu)
+- [10. Dataset](#10-dataset)
+- [11. Web](#11-web)
+- [12. Study](#12-study)
+- [13. Other Tool](#13-other-tool)
+- [14. Other Awesome](#14-other-awesome)
+- [15. For Chinese](#15-for-chinese)
 
 
 # 1. Self-Driving Software
@@ -77,6 +78,7 @@ The Awesome Self-Driving list
 
 # 5. Calibration
 
+- [velo2cam_calibration](https://github.com/beltransen/velo2cam_calibration) - Automatic Extrinsic Calibration Method for LiDAR and Camera Sensor Setups. ROS Package.
 - [lidar_camera_calibration](https://github.com/heethesh/lidar_camera_calibration) - Light-weight camera LiDAR calibration package for ROS using OpenCV and PCL (PnP + LM optimization)
 - [atom](https://github.com/lardemua/atom) - Calibration tools for multi-sensor, multi-modal, robotic systems
 - [FastCertRelPose](https://github.com/mergarsal/FastCertRelPose) - Fast and robust certifiable relative pose estimation
@@ -89,7 +91,7 @@ The Awesome Self-Driving list
 - [extrinsic_lidar_camera_calibration](https://github.com/UMich-BipedLab/extrinsic_lidar_camera_calibration) - This is a package for extrinsic calibration between a 3D LiDAR and a camera, described in paper: Improvements to Target-Based 3D LiDAR to Camera Calibration.
 
 # 6. Detection
-
+- [JRMOT_ROS](https://github.com/StanfordVL/JRMOT_ROS) -  A Real-Time 3D Multi-Object Tracker
 - [bbox](https://github.com/varunagrawal/bbox) - Python library for 2D/3D bounding boxes
 - [CLOCs](https://github.com/pangsu0613/CLOCs) - CLOCs: Camera-LiDAR Object Candidates Fusion for 3D Object Detection
 - [CenterFusion](https://github.com/mrnabati/CenterFusion) - CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection
@@ -98,10 +100,13 @@ The Awesome Self-Driving list
 - [LaneDetection_End2End](https://github.com/wvangansbeke/LaneDetection_End2End) - End-to-end Lane Detection for Self-Driving Cars (ICCV 2019 Workshop)
 - [VoxelNetRos](https://github.com/AbangLZU/VoxelNetRos) - implement the VoxelNet with ROS, using Kitti data to test
 
+# 7. Control
+- [mpc_local_planner](https://github.com/rst-tu-dortmund/mpc_local_planner) - It provides a generic and versatile model predictive control implementation with minimum-time and quadratic-form receding-horizon configurations.
 
-# 7. SLAM
 
-## 7.1. Lidar-based
+# 8. SLAM
+
+## 8.1. Lidar-based
 - [iscloam](https://github.com/wh200720041/iscloam) - Intensity Scan Context based full SLAM implementation for autonomous driving. ICRA 2020
 - [loam_livox](https://github.com/hku-mars/loam_livox) - A robust LiDAR Odometry and Mapping (LOAM) package for Livox-LiDAR
 - [decentralized_loam](https://github.com/hku-mars/decentralized_loam) - A decentralized framework for simultaneous calibration, localization and mapping with multiple LiDARs
@@ -121,33 +126,33 @@ The Awesome Self-Driving list
 - [M-LOAM](https://github.com/gogojjh/M-LOAM) - Robust Odometry and Mapping for Multi-LiDAR Systems with Online Extrinsic Calibration
 
 
-## 7.2. Camera-based
+## 8.2. Camera-based
 - [ORB_SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) - ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM
 
-## 7.3. Lidar-Camera-based
+## 8.3. Lidar-Camera-based
 - [CamVox](https://github.com/ISEE-Technology/CamVox) - A low-cost SLAM system based on camera and Livox lidar.
 
-## 7.4. Odometry
+## 8.4. Odometry
 - [FAST_LIO](https://github.com/hku-mars/FAST_LIO) - A computationally efficient and robust LiDAR-inertial odometry (LIO) package
 - [ESVO](https://github.com/HKUST-Aerial-Robotics/ESVO) - This repository maintains the implementation of "Event-based Stereo Visual Odometry".
 - [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) - LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping
 - [LOL](https://github.com/RozDavid/LOL) - LOL: Lidar-only Odometry and Localization in 3D point cloud maps
 
-## 7.5. Registration
+## 8.5. Registration
 - [scancontext](https://github.com/irapkaist/scancontext) - Global LiDAR descriptor for place recognition and long-term localization
 - [3d-icp-cov](https://github.com/CAOR-MINES-ParisTech/3d-icp-cov) - Code for the paper "A New Approach to 3D ICP Covariance Estimation for Mobile Robotics"
 - [TEASER-plusplus](https://github.com/MIT-SPARK/TEASER-plusplus) - A fast and robust point cloud registration library
 - [FS3R](https://github.com/zarathustr/FS3R) - A Fast Symbolic 3D Registration Solution from HKUST RAM-LAB
 - [dynamic_robot_localization](https://github.com/carlosmccosta/dynamic_robot_localization) - Point cloud registration pipeline for robot localization and 3D perception
 
-## 7.6. Optimization
+## 8.6. Optimization
 - [voxgraph](https://github.com/ethz-asl/voxgraph) - Voxblox-based Pose graph optimization
 - [Kimera-RPGO](https://github.com/MIT-SPARK/Kimera-RPGO) - Robust Pose Graph Optimization
 
-## 7.7. Loop Closing
+## 8.7. Loop Closing
 - [OverlapNet](https://github.com/PRBonn/OverlapNet) - OverlapNet - Loop Closing for 3D LiDAR-based SLAM (chen2020rss)
 
-## 7.8. Other
+## 8.8. Other
 - [interactive_slam](https://github.com/SMRT-AIST/interactive_slam) - Interactive Map Correction for 3D Graph SLAM
 - [Vehicle-Markov-Localization](https://github.com/omerwase/Vehicle-Markov-Localization) - Markov localization using map landmarks and LIDAR sensor data
 - [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) - Slam Toolbox for lifelong mapping and localization in potentially massive maps with ROS
@@ -156,7 +161,7 @@ The Awesome Self-Driving list
 
 
 
-# 8. GPS, IMU
+# 9. GPS, IMU
 
 - [imu_tools](https://github.com/ccny-ros-pkg/imu_tools) - ROS tools for IMU devices
 - [PPPLib](https://github.com/heiwa0519/PPPLib) - Precise Point Positioning Library
@@ -168,19 +173,19 @@ with GNSS (global navigation satellite system).
 - [GPS_IMU_Kalman_Filter](https://github.com/karanchawla/GPS_IMU_Kalman_Filter) - Fusing GPS, IMU and Encoder sensors for accurate state estimation.
 - [imu_utils](https://github.com/gaowenliang/imu_utils) - A ROS package tool to analyze the IMU performance.
 
-# 9. Dataset
+# 10. Dataset
 
 - [UrbanLoco](https://github.com/weisongwen/UrbanLoco) - UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes
 - [UrbanNavDataset](https://github.com/weisongwen/UrbanNavDataset) - UrbanNav: an Open-Sourcing Localization Data Collected in Asian Urban Canyons, Including Tokyo and Hong Kong
 
-# 10. Web
+# 11. Web
 - [webrtc_ros](https://github.com/RobotWebTools/webrtc_ros) - Streaming of ROS Image Topics using WebRTC
 - [AutomanTools](https://github.com/tier4/AutomanTools) - AutomanTools is an open-source software for self-driving AI.
 - [Rosbag-Analyser](https://github.com/agrija9/Rosbag-Analyser) - Interactive Post-mortem/Live Analysis of ROS Bag Files
 - [webviz](https://github.com/cruise-automation/webviz) - web-based visualization libraries
 
 
-# 11. Study
+# 12. Study
 
 - [C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) - Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.
 - [modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) - A cheatsheet of modern C++ language and library features.
@@ -193,7 +198,7 @@ with GNSS (global navigation satellite system).
 - [Dig-into-Apollo](https://github.com/daohu527/Dig-into-Apollo) - Apollo notes - Apollo learning notes for beginners.
 - [Autoware_tutorial](https://github.com/pixmoving-moveit/Autoware_tutorial) - Autoware Simple Tutorial for Self-driving Car
 
-# 12. Other Tool
+# 13. Other Tool
 
 - [dart](https://github.com/dartsim/dart) - Dynamic Animation and Robotics Toolkit
 - [modelzoo](https://github.com/autowarefoundation/modelzoo) - A collection of machine-learned models for use in autonomous driving applications.
@@ -216,7 +221,7 @@ with GNSS (global navigation satellite system).
 - [ros-integrate](https://github.com/Noam-Dori/ros-integrate) - Extends IntelliJ-Based IDEs with ROS specific development tools
 
 
-# 13. Other Awesome
+# 14. Other Awesome
 - [Lidar_For_AD_references](https://github.com/beedotkiran/Lidar_For_AD_references) - A list of references on lidar point cloud processing for autonomous driving
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research) - Track Advancement of SLAM 跟踪SLAM前沿动态【2020 version】
 - [Awesome-3D-Detectors](https://github.com/Hub-Tian/Awesome-3D-Detectors) - Paperlist of awesome 3D detection methods
@@ -228,7 +233,7 @@ with GNSS (global navigation satellite system).
 - [awesome-point-cloud-processing](https://github.com/mmolero/awesome-point-cloud-processing) - A curated list of awesome Point Cloud Processing Resources, Libraries, Software
 - [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) - A list of papers and datasets about point cloud analysis (processing)
 
-# 14. For Chinese
+# 15. For Chinese
 - [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED) - loam code noted in Chinese（loam中文注解版）
 - [LeGO-LOAM_NOTED](https://github.com/wykxwyc/LeGO-LOAM_NOTED) - LeGO-LOAM代码注释与学习
 - [loam_leanring](https://github.com/shoufei403/loam_leanring) - Include loam_velodyne code and A-LOAM code with chinese explaintion.I also put some papers related to loam in it.
