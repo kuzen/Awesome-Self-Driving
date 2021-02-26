@@ -40,6 +40,7 @@ The Awesome Self-Driving list
 
 # 2. Planning
 - [PathPlanning](https://github.com/zhm-real/PathPlanning) - Common used path planning algorithms with animations.
+- [mesh_navigation](https://github.com/uos/mesh_navigation) - The Mesh Navigation bundle provides software to perform efficient robot navigation on 2D-manifolds in 3D represented as triangular meshes.
 - [path_optimizer](https://github.com/LiJiangnanBit/path_optimizer) - Real-time path planning for vehicles.
 - [SDC_ND_T3P1_Path_Planning](https://github.com/jkpld/SDC_ND_T3P1_Path_Planning) - Create a path planner to safely drive a car on a 3 lane highway and pass slow cars
 
@@ -200,12 +201,14 @@ with GNSS (global navigation satellite system).
 
 # 13. Other Tool
 
+- [RoboStack for ROS Noetic](https://github.com/RoboStack/ros-noetic) - RoboStack, which tightly couples ROS with Conda, a cross-platform, language-agnostic package manager.
 - [dart](https://github.com/dartsim/dart) - Dynamic Animation and Robotics Toolkit
 - [modelzoo](https://github.com/autowarefoundation/modelzoo) - A collection of machine-learned models for use in autonomous driving applications.
 - [ROSIntegration](https://github.com/code-iai/ROSIntegration) - Unreal Engine Plugin to enable ROS Support
 - [Fastor](https://github.com/romeric/Fastor) - A lightweight high performance tensor algebra framework for modern C++
 - [pointcloud_evaluation_tool](https://github.com/AIS-Bonn/pointcloud_evaluation_tool) - This tool computes the Mean Map Entropy and the Mean Plane Variance of a point cloud.
 - [jupyter-ros](https://github.com/RoboStack/jupyter-ros) - Jupyter widget helpers for ROS, the Robot Operating System
+- [jupyterlab-ros](https://github.com/RoboStack/jupyterlab-ros) - Helper extensions for running ROS from within JupyterLab
 - [bagedit](https://github.com/MHarbi/bagedit) - Catkin version of https://bitbucket.org/daniel_dube/bagedit, which are scripts to manage ROS bag files.
 - [rosbag_editor](https://github.com/facontidavide/rosbag_editor) - Create a rosbag from a given one, using a simple GUI
 - [laser_line_extraction](https://github.com/kam3k/laser_line_extraction) - A ROS package that extracts line segments from LaserScan messages.
