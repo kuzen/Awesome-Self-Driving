@@ -90,6 +90,7 @@ The Awesome Self-Driving list
 - [lidar_IMU_calib](https://github.com/APRIL-ZJU/lidar_IMU_calib) - Targetless Calibration of LiDAR-IMU System Based on Continuous-time Batch Estimation
 - [lidar_align](https://github.com/ethz-asl/lidar_align) - A simple method for finding the extrinsic calibration between a 3D lidar and a 6-dof pose sensor
 - [extrinsic_lidar_camera_calibration](https://github.com/UMich-BipedLab/extrinsic_lidar_camera_calibration) - This is a package for extrinsic calibration between a 3D LiDAR and a camera, described in paper: Improvements to Target-Based 3D LiDAR to Camera Calibration.
+- [mrcal](https://github.com/dkogan/mrcal) - mrcal is a generic toolkit to solve calibration and SFM-like problems originating at NASA/JPL. 
 
 # 6. Detection
 - [JRMOT_ROS](https://github.com/StanfordVL/JRMOT_ROS) -  A Real-Time 3D Multi-Object Tracker
@@ -108,6 +109,7 @@ The Awesome Self-Driving list
 # 8. SLAM
 
 ## 8.1. Lidar-based
+- [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) - Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain
 - [iscloam](https://github.com/wh200720041/iscloam) - Intensity Scan Context based full SLAM implementation for autonomous driving. ICRA 2020
 - [loam_livox](https://github.com/hku-mars/loam_livox) - A robust LiDAR Odometry and Mapping (LOAM) package for Livox-LiDAR
 - [decentralized_loam](https://github.com/hku-mars/decentralized_loam) - A decentralized framework for simultaneous calibration, localization and mapping with multiple LiDARs
