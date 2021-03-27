@@ -78,7 +78,7 @@ The Awesome Self-Driving list
 - [semantic_suma](https://github.com/PRBonn/semantic_suma) - SuMa++: Efficient LiDAR-based Semantic SLAM (Chen et al IROS 2019)
 
 # 5. Calibration
-
+- [camera_calibration](https://github.com/puzzlepaint/camera_calibration) - Accurate geometric camera calibration with generic camera models
 - [velo2cam_calibration](https://github.com/beltransen/velo2cam_calibration) - Automatic Extrinsic Calibration Method for LiDAR and Camera Sensor Setups. ROS Package.
 - [lidar_camera_calibration](https://github.com/heethesh/lidar_camera_calibration) - Light-weight camera LiDAR calibration package for ROS using OpenCV and PCL (PnP + LM optimization)
 - [atom](https://github.com/lardemua/atom) - Calibration tools for multi-sensor, multi-modal, robotic systems
@@ -109,7 +109,10 @@ The Awesome Self-Driving list
 # 8. SLAM
 
 ## 8.1. Lidar-based
+- [r2live](https://github.com/hku-mars/r2live) - R2LIVE is a robust, real-time tightly-coupled multi-sensor fusion framework, which fuses the measurement from the LiDAR, inertial sensor, visual camera to achieve robust, accurate state estimation.
+- [LaMa](https://github.com/iris-ua/iris_lama) -  A Localization and Mapping library. Low computational effort and low memory usage whenever possible. 
 - [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) - Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain
+- [SSL_SLAM2](https://github.com/wh200720041/ssl_slam2) - Lightweight 3-D Localization and Mapping for Solid-State LiDAR (mapping and localization separated) ICRA 2021
 - [iscloam](https://github.com/wh200720041/iscloam) - Intensity Scan Context based full SLAM implementation for autonomous driving. ICRA 2020
 - [loam_livox](https://github.com/hku-mars/loam_livox) - A robust LiDAR Odometry and Mapping (LOAM) package for Livox-LiDAR
 - [decentralized_loam](https://github.com/hku-mars/decentralized_loam) - A decentralized framework for simultaneous calibration, localization and mapping with multiple LiDARs
@@ -203,6 +206,7 @@ with GNSS (global navigation satellite system).
 
 # 13. Other Tool
 
+- [Foxglove Studio](https://github.com/foxglove/studio) - Foxglove Studio (foxglove.dev) is an integrated visualization and diagnosis tool for robotics.
 - [RoboStack for ROS Noetic](https://github.com/RoboStack/ros-noetic) - RoboStack, which tightly couples ROS with Conda, a cross-platform, language-agnostic package manager.
 - [dart](https://github.com/dartsim/dart) - Dynamic Animation and Robotics Toolkit
 - [modelzoo](https://github.com/autowarefoundation/modelzoo) - A collection of machine-learned models for use in autonomous driving applications.
@@ -224,6 +228,7 @@ with GNSS (global navigation satellite system).
 - [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - The Time Series Visualization Tool that you deserve.
 - [ROS-Mobile-Android](https://github.com/ROS-Mobile/ROS-Mobile-Android) - Visualization and controlling application for Android
 - [ros-integrate](https://github.com/Noam-Dori/ros-integrate) - Extends IntelliJ-Based IDEs with ROS specific development tools
+- [PPTK](https://github.com/heremaps/pptk) - The Point Processing Toolkit (pptk) is a Python package for visualizing and processing 2-d/3-d point clouds.
 
 
 # 14. Other Awesome
