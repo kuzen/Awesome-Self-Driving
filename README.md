@@ -6,8 +6,7 @@ The Awesome Self-Driving list
   - [3.1. Lanelet2](#31-lanelet2)
   - [3.2. OSM](#32-osm)
   - [3.3. OpenDrive](#33-opendrive)
-  - [3.4. VectorMap](#34-vectormap)
-  - [3.5. Converter](#35-converter)
+  - [3.4. Converter](#34-converter)
 - [4. Semantic](#4-semantic)
 - [5. Calibration](#5-calibration)
 - [6. Detection](#6-detection)
@@ -43,11 +42,12 @@ The Awesome Self-Driving list
 - [PathPlanning](https://github.com/zhm-real/PathPlanning) - Common used path planning algorithms with animations.
 - [mesh_navigation](https://github.com/uos/mesh_navigation) - The Mesh Navigation bundle provides software to perform efficient robot navigation on 2D-manifolds in 3D represented as triangular meshes.
 - [path_optimizer](https://github.com/LiJiangnanBit/path_optimizer) - Real-time path planning for vehicles.
-- [SDC_ND_T3P1_Path_Planning](https://github.com/jkpld/SDC_ND_T3P1_Path_Planning) - Create a path planner to safely drive a car on a 3 lane highway and pass slow cars
 
 
 # 3. HD Map
 - [fmm](https://github.com/cyang-kth/fmm) - Fast map matching, an open source framework in C++
+- [Tier4 Tool](https://tools.tier4.jp/) - Vector Map Builder is a tool that helps to create a vector map from point cloud data. 
+  
 ## 3.1. Lanelet2
 - [MapToolbox](https://github.com/autocore-ai/MapToolbox) - Plugins to make Lanelet2/vector_map in Unity
 - [AssureMappingTools](https://github.com/hatem-darweesh/assuremappingtools) - Desktop based tool for viewing, editing and saving road network maps for autonomous vehicle platforms such as Autoware.
@@ -62,10 +62,7 @@ The Awesome Self-Driving list
 - [opendriveparser](https://github.com/liuyf5231/opendriveparser) - OpenDRIVE Map parser
 - [OpenDriveOnlineEditor](https://github.com/Olodus/OpenDriveOnlineEditor) - Web based viewer of OpenDrive (xodr) files (editing not implemented yet)
 
-## 3.4. VectorMap
-- [rubimapper](https://github.com/likewatchk/rubimapper) - Autoware vector_map maker
-
-## 3.5. Converter
+## 3.4. Converter
 - [opendrive2lanelets-converter](https://github.com/wenlong-dev/opendrive2lanelets-converter) - This is an unofficial copy of https://commonroad.in.tum.de/tools/opendrive2lanelet
 - [opendrive2lanelet](https://github.com/itabrl/opendrive2lanelet) - opendrive to lanelet2
 - [osm2xodr](https://github.com/JHMeusener/osm2xodr) - converter for OpenStreetMaps to OpenDrive roads - for use with Carla or other things
@@ -87,7 +84,6 @@ The Awesome Self-Driving list
 - [FastCertRelPose](https://github.com/mergarsal/FastCertRelPose) - Fast and robust certifiable relative pose estimation
 - [ACSC](https://github.com/HViktorTsoi/ACSC) - Automatic Calibration for Non-repetitive Scanning Solid-State LiDAR and Camera Systems
 - [kalibr](https://github.com/ethz-asl/kalibr) - The Kalibr visual-inertial calibration toolbox
-- [online_calibration](https://github.com/plumewind/online_calibration) - This is an online calibration system between multiple sensors (camera, lidar, IMU). It is being created. . . . . .
 - [SensorCalibration](https://github.com/FENGChenxi0823/SensorCalibration) - IMU-Lidar Extrinsic Calibration Package
 - [lidar_IMU_calib](https://github.com/APRIL-ZJU/lidar_IMU_calib) - Targetless Calibration of LiDAR-IMU System Based on Continuous-time Batch Estimation
 - [lidar_align](https://github.com/ethz-asl/lidar_align) - A simple method for finding the extrinsic calibration between a 3D lidar and a 6-dof pose sensor
@@ -186,7 +182,7 @@ with GNSS (global navigation satellite system).
 - [UrbanNavDataset](https://github.com/weisongwen/UrbanNavDataset) - UrbanNav: an Open-Sourcing Localization Data Collected in Asian Urban Canyons, Including Tokyo and Hong Kong
 
 # 11. Simulation
-- [LGSVL](https://github.com/lgsvl/simulator)
+- [LGSVL](https://github.com/lgsvl/simulator) - A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles
 - [carla](https://github.com/carla-simulator/carla) - Open-source simulator for autonomous driving research.
 
 # 12. Visualization
