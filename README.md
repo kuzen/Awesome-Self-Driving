@@ -23,11 +23,13 @@ The Awesome Self-Driving list
   - [8.8. Other](#88-other)
 - [9. GPS, IMU](#9-gps-imu)
 - [10. Dataset](#10-dataset)
-- [11. Web](#11-web)
-- [12. Study](#12-study)
-- [13. Other Tool](#13-other-tool)
-- [14. Other Awesome](#14-other-awesome)
-- [15. For Chinese](#15-for-chinese)
+- [11. Simulation](#11-simulation)
+- [12. Visualization](#12-visualization)
+- [13. Web](#13-web)
+- [14. Study](#14-study)
+- [15. Other Tool](#15-other-tool)
+- [16. Other Awesome](#16-other-awesome)
+- [17. For Chinese](#17-for-chinese)
 
 
 # 1. Self-Driving Software
@@ -36,7 +38,6 @@ The Awesome Self-Driving list
 - [AutowareArchitectureProposal.proj](https://github.com/tier4/AutowareArchitectureProposal.proj) - This is the source code of the feasibility study for Autoware architecture proposal.
 - [Aslan](https://github.com/project-aslan/Aslan) - Open source self-driving software for low speed environments
 - [AutoC2X-AW](https://github.com/esakilab/AutoC2X-AW) - AutoC2X is cooperative awareness driving software, extension for Autoware and OpenC2X. 
-- [carla](https://github.com/carla-simulator/carla) - Open-source simulator for autonomous driving research.
 
 # 2. Planning
 - [PathPlanning](https://github.com/zhm-real/PathPlanning) - Common used path planning algorithms with animations.
@@ -79,6 +80,7 @@ The Awesome Self-Driving list
 
 # 5. Calibration
 - [camera_calibration](https://github.com/puzzlepaint/camera_calibration) - Accurate geometric camera calibration with generic camera models
+- [image_projection](https://github.com/tu-darmstadt-ros-pkg/image_projection) - image_projection is a ROS package to create various projections from multiple calibrated cameras.
 - [velo2cam_calibration](https://github.com/beltransen/velo2cam_calibration) - Automatic Extrinsic Calibration Method for LiDAR and Camera Sensor Setups. ROS Package.
 - [lidar_camera_calibration](https://github.com/heethesh/lidar_camera_calibration) - Light-weight camera LiDAR calibration package for ROS using OpenCV and PCL (PnP + LM optimization)
 - [atom](https://github.com/lardemua/atom) - Calibration tools for multi-sensor, multi-modal, robotic systems
@@ -145,6 +147,7 @@ The Awesome Self-Driving list
 - [LOL](https://github.com/RozDavid/LOL) - LOL: Lidar-only Odometry and Localization in 3D point cloud maps
 
 ## 8.5. Registration
+- [UnsupervisedR&R](https://github.com/mbanani/unsupervisedrr) - Unsupervised Pointcloud Registration via Differentiable Rendering
 - [scancontext](https://github.com/irapkaist/scancontext) - Global LiDAR descriptor for place recognition and long-term localization
 - [3d-icp-cov](https://github.com/CAOR-MINES-ParisTech/3d-icp-cov) - Code for the paper "A New Approach to 3D ICP Covariance Estimation for Mobile Robotics"
 - [TEASER-plusplus](https://github.com/MIT-SPARK/TEASER-plusplus) - A fast and robust point cloud registration library
@@ -168,7 +171,6 @@ The Awesome Self-Driving list
 
 
 # 9. GPS, IMU
-
 - [imu_tools](https://github.com/ccny-ros-pkg/imu_tools) - ROS tools for IMU devices
 - [PPPLib](https://github.com/heiwa0519/PPPLib) - Precise Point Positioning Library
 - [RTKLIB](https://github.com/tomojitakasu/RTKLIB) - RTKLIB is an open source program package for standard and precise positioning
@@ -180,19 +182,28 @@ with GNSS (global navigation satellite system).
 - [imu_utils](https://github.com/gaowenliang/imu_utils) - A ROS package tool to analyze the IMU performance.
 
 # 10. Dataset
-
 - [UrbanLoco](https://github.com/weisongwen/UrbanLoco) - UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes
 - [UrbanNavDataset](https://github.com/weisongwen/UrbanNavDataset) - UrbanNav: an Open-Sourcing Localization Data Collected in Asian Urban Canyons, Including Tokyo and Hong Kong
 
-# 11. Web
+# 11. Simulation
+- [LGSVL](https://github.com/lgsvl/simulator)
+- [carla](https://github.com/carla-simulator/carla) - Open-source simulator for autonomous driving research.
+
+# 12. Visualization
+- [webviz](https://github.com/cruise-automation/webviz) - web-based visualization libraries
+- [Foxglove Studio](https://github.com/foxglove/studio) - Foxglove Studio (foxglove.dev) is an integrated visualization and diagnosis tool for robotics.
+- [rviz_satellite](https://github.com/nobleo/rviz_satellite) - Display internet satellite imagery in RViz
+- [mapviz](https://github.com/swri-robotics/mapviz) - Modular ROS visualization tool for 2D data.
+- [streetscape.gl](https://github.com/uber/streetscape.gl) - Visualization framework for autonomy and robotics data encoded in XVIZ
+
+# 13. Web
 - [webrtc_ros](https://github.com/RobotWebTools/webrtc_ros) - Streaming of ROS Image Topics using WebRTC
 - [AutomanTools](https://github.com/tier4/AutomanTools) - AutomanTools is an open-source software for self-driving AI.
 - [Rosbag-Analyser](https://github.com/agrija9/Rosbag-Analyser) - Interactive Post-mortem/Live Analysis of ROS Bag Files
-- [webviz](https://github.com/cruise-automation/webviz) - web-based visualization libraries
 
 
-# 12. Study
-
+# 14. Study
+- [visual-slam-roadmap](https://github.com/changh95/visual-slam-roadmap) - Roadmap to becoming a Visual-SLAM developer in 2021
 - [C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) - Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.
 - [modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) - A cheatsheet of modern C++ language and library features.
 - [RosHowTwo](https://github.com/rydb/RosHowTwo) - A place to find and share ROS2 learning resources!
@@ -204,9 +215,9 @@ with GNSS (global navigation satellite system).
 - [Dig-into-Apollo](https://github.com/daohu527/Dig-into-Apollo) - Apollo notes - Apollo learning notes for beginners.
 - [Autoware_tutorial](https://github.com/pixmoving-moveit/Autoware_tutorial) - Autoware Simple Tutorial for Self-driving Car
 
-# 13. Other Tool
-
-- [Foxglove Studio](https://github.com/foxglove/studio) - Foxglove Studio (foxglove.dev) is an integrated visualization and diagnosis tool for robotics.
+# 15. Other Tool
+- [PUMA](https://github.com/PRBonn/puma)- Poisson Surface Reconstruction for LiDAR Odometry and Mapping
+- [docker-ros-jupyter](https://github.com/frankjoshua/docker-ros-jupyter) - Runs a Jupyter Notebook with ROS in a Docker container.
 - [RoboStack for ROS Noetic](https://github.com/RoboStack/ros-noetic) - RoboStack, which tightly couples ROS with Conda, a cross-platform, language-agnostic package manager.
 - [dart](https://github.com/dartsim/dart) - Dynamic Animation and Robotics Toolkit
 - [modelzoo](https://github.com/autowarefoundation/modelzoo) - A collection of machine-learned models for use in autonomous driving applications.
@@ -218,20 +229,18 @@ with GNSS (global navigation satellite system).
 - [bagedit](https://github.com/MHarbi/bagedit) - Catkin version of https://bitbucket.org/daniel_dube/bagedit, which are scripts to manage ROS bag files.
 - [rosbag_editor](https://github.com/facontidavide/rosbag_editor) - Create a rosbag from a given one, using a simple GUI
 - [laser_line_extraction](https://github.com/kam3k/laser_line_extraction) - A ROS package that extracts line segments from LaserScan messages.
-- [rviz_satellite](https://github.com/nobleo/rviz_satellite) - Display internet satellite imagery in RViz
 - [ign-rviz](https://github.com/ignitionrobotics/ign-rviz) - ROS 2 visualization using Ignition Libraries
 - [python-pcl](https://github.com/strawlab/python-pcl) - Python bindings to the pointcloud library (pcl)
 - [pyrobot](https://github.com/facebookresearch/pyrobot) - PyRobot: An Open Source Robotics Research Platform
 - [ros_deep_learning](https://github.com/dusty-nv/ros_deep_learning) - Deep learning inference nodes for ROS with support for NVIDIA Jetson TX1/TX2/Xavier and TensorRT
-- [imgui_ros](https://github.com/lucasw/imgui_ros) - View ros images, visualize in 2D and 3D, and interact with nodes through topics and services using https://github.com/ocornut/imgui
-- [mapviz](https://github.com/swri-robotics/mapviz) - Modular ROS visualization tool for 2D data.
+- [imgui_ros](https://github.com/lucasw/imgui_ros) - View ros images, visualize in 2D and 3D, and interact with nodes through topics and services using ocornut/imgui
 - [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - The Time Series Visualization Tool that you deserve.
 - [ROS-Mobile-Android](https://github.com/ROS-Mobile/ROS-Mobile-Android) - Visualization and controlling application for Android
 - [ros-integrate](https://github.com/Noam-Dori/ros-integrate) - Extends IntelliJ-Based IDEs with ROS specific development tools
 - [PPTK](https://github.com/heremaps/pptk) - The Point Processing Toolkit (pptk) is a Python package for visualizing and processing 2-d/3-d point clouds.
 
 
-# 14. Other Awesome
+# 16. Other Awesome
 - [Lidar_For_AD_references](https://github.com/beedotkiran/Lidar_For_AD_references) - A list of references on lidar point cloud processing for autonomous driving
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research) - Track Advancement of SLAM 跟踪SLAM前沿动态【2020 version】
 - [Awesome-3D-Detectors](https://github.com/Hub-Tian/Awesome-3D-Detectors) - Paperlist of awesome 3D detection methods
@@ -243,7 +252,7 @@ with GNSS (global navigation satellite system).
 - [awesome-point-cloud-processing](https://github.com/mmolero/awesome-point-cloud-processing) - A curated list of awesome Point Cloud Processing Resources, Libraries, Software
 - [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) - A list of papers and datasets about point cloud analysis (processing)
 
-# 15. For Chinese
+# 17. For Chinese
 - [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED) - loam code noted in Chinese（loam中文注解版）
 - [LeGO-LOAM_NOTED](https://github.com/wykxwyc/LeGO-LOAM_NOTED) - LeGO-LOAM代码注释与学习
 - [loam_leanring](https://github.com/shoufei403/loam_leanring) - Include loam_velodyne code and A-LOAM code with chinese explaintion.I also put some papers related to loam in it.
@@ -256,4 +265,5 @@ with GNSS (global navigation satellite system).
 - [DeepLearning](https://github.com/MingchaoZhu/DeepLearning) - Python for《Deep Learning》，该书为《深度学习》(花书) 数学推导、原理剖析与源码级别代码实现
 - [localization_in_auto_driving](https://github.com/Little-Potato-1990/localization_in_auto_driving) - 从零开始做自动驾驶定位
 - [Effective-Modern-Cpp-Zh](https://github.com/Ricardo666666/Effective-Modern-Cpp-Zh) - 42 SPECIFIC WAYS TO IMPROVE YOUR USE OF C++11 AND C++14 中文版
+- [PCL-Notes](https://github.com/MNewBie/PCL-Notes) - pcl learning notes
 
