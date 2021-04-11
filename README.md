@@ -92,6 +92,7 @@ The Awesome Self-Driving list
 - [mrcal](https://github.com/dkogan/mrcal) - mrcal is a generic toolkit to solve calibration and SFM-like problems originating at NASA/JPL. 
 
 # 6. Detection
+- [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) - Official Python Implementation for "3D Multi-Object Tracking: A Baseline and New Evaluation Metrics"
 - [JRMOT_ROS](https://github.com/StanfordVL/JRMOT_ROS) -  A Real-Time 3D Multi-Object Tracker
 - [bbox](https://github.com/varunagrawal/bbox) - Python library for 2D/3D bounding boxes
 - [CLOCs](https://github.com/pangsu0613/CLOCs) - CLOCs: Camera-LiDAR Object Candidates Fusion for 3D Object Detection
@@ -151,6 +152,7 @@ The Awesome Self-Driving list
 ## 8.6. Optimization
 - [voxgraph](https://github.com/ethz-asl/voxgraph) - Voxblox-based Pose graph optimization
 - [Kimera-RPGO](https://github.com/MIT-SPARK/Kimera-RPGO) - Robust Pose Graph Optimization
+- [MOLA](https://github.com/MOLAorg/mola) - A Modular Optimization framework for Localization and mapping
 
 ## 8.7. Loop Closing
 - [OverlapNet](https://github.com/PRBonn/OverlapNet) - OverlapNet - Loop Closing for 3D LiDAR-based SLAM (chen2020rss)
