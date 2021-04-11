@@ -74,6 +74,7 @@ The Awesome Self-Driving list
 - [lidar-bonnetal](https://github.com/PRBonn/lidar-bonnetal) - Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving
 - [Kimera-Semantics](https://github.com/MIT-SPARK/Kimera-Semantics) - Real-Time 3D Semantic Reconstruction from 2D data
 - [semantic_suma](https://github.com/PRBonn/semantic_suma) - SuMa++: Efficient LiDAR-based Semantic SLAM (Chen et al IROS 2019)
+- [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) - OpenMMLab Semantic Segmentation Toolbox and Benchmark.
 
 # 5. Calibration
 - [camera_calibration](https://github.com/puzzlepaint/camera_calibration) - Accurate geometric camera calibration with generic camera models
@@ -123,9 +124,7 @@ The Awesome Self-Driving list
 - [floam](https://github.com/wh200720041/floam) - Fast LOAM: Fast and Optimized Lidar Odometry And Mapping   for indoor/outdoor localization (Lidar SLAM)
 - [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam) - 3D LIDAR-based Graph SLAM
 - [LINS---LiDAR-inertial-SLAM](https://github.com/ChaoqinRobotics/LINS---LiDAR-inertial-SLAM) - A Lidar-Inertial State Estimator for Robust and Efficient Navigation based on iterated error-state Kalman filter
-- [LOAM-multi-thread](https://github.com/tiger20/LOAM-multi-thread) - Adjust the original LOAM to a multi-threaded version which doesn't require ROS.
 - [lio-mapping](https://github.com/hyye/lio-mapping) - Implementation of Tightly Coupled 3D Lidar Inertial Odometry and Mapping (LIO-mapping)
-- [lidar_localization](https://github.com/Little-Potato-1990/lidar_localization) - A framework of lidar mapping and localization with strong extensibility
 - [StaticMapping](https://github.com/EdwardLiuyc/StaticMapping) - Use LiDAR to map the static world
 - [M-LOAM](https://github.com/gogojjh/M-LOAM) - Robust Odometry and Mapping for Multi-LiDAR Systems with Online Extrinsic Calibration
 
@@ -148,7 +147,6 @@ The Awesome Self-Driving list
 - [3d-icp-cov](https://github.com/CAOR-MINES-ParisTech/3d-icp-cov) - Code for the paper "A New Approach to 3D ICP Covariance Estimation for Mobile Robotics"
 - [TEASER-plusplus](https://github.com/MIT-SPARK/TEASER-plusplus) - A fast and robust point cloud registration library
 - [FS3R](https://github.com/zarathustr/FS3R) - A Fast Symbolic 3D Registration Solution from HKUST RAM-LAB
-- [dynamic_robot_localization](https://github.com/carlosmccosta/dynamic_robot_localization) - Point cloud registration pipeline for robot localization and 3D perception
 
 ## 8.6. Optimization
 - [voxgraph](https://github.com/ethz-asl/voxgraph) - Voxblox-based Pose graph optimization
@@ -159,8 +157,6 @@ The Awesome Self-Driving list
 
 ## 8.8. Other
 - [interactive_slam](https://github.com/SMRT-AIST/interactive_slam) - Interactive Map Correction for 3D Graph SLAM
-- [Vehicle-Markov-Localization](https://github.com/omerwase/Vehicle-Markov-Localization) - Markov localization using map landmarks and LIDAR sensor data
-- [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox) - Slam Toolbox for lifelong mapping and localization in potentially massive maps with ROS
 - [slam_docker_collection](https://github.com/koide3/slam_docker_collection) - A collection of docker environments for 3D SLAM packages
 - [evo](https://github.com/MichaelGrupp/evo) - Python package for the evaluation of odometry and SLAM
 
@@ -191,6 +187,8 @@ with GNSS (global navigation satellite system).
 - [rviz_satellite](https://github.com/nobleo/rviz_satellite) - Display internet satellite imagery in RViz
 - [mapviz](https://github.com/swri-robotics/mapviz) - Modular ROS visualization tool for 2D data.
 - [streetscape.gl](https://github.com/uber/streetscape.gl) - Visualization framework for autonomy and robotics data encoded in XVIZ
+- [rviz_visual_tools](https://github.com/PickNikRobotics/rviz_visual_tools) - C++ API wrapper for displaying shapes and meshes in Rviz
+- [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - The Time Series Visualization Tool that you deserve.
 
 # 13. Web
 - [webrtc_ros](https://github.com/RobotWebTools/webrtc_ros) - Streaming of ROS Image Topics using WebRTC
@@ -200,39 +198,28 @@ with GNSS (global navigation satellite system).
 
 # 14. Study
 - [visual-slam-roadmap](https://github.com/changh95/visual-slam-roadmap) - Roadmap to becoming a Visual-SLAM developer in 2021
-- [C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) - Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.
-- [modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) - A cheatsheet of modern C++ language and library features.
 - [RosHowTwo](https://github.com/rydb/RosHowTwo) - A place to find and share ROS2 learning resources!
 - [Eigen-Cheatsheet](https://github.com/zxl19/Eigen-Cheatsheet) - A cheatsheet of Eigen, the C++ linear algebra library.
 - [slambook2](https://github.com/gaoxiang12/slambook2) - edition 2 of the slambook
 - [CppRobotics](https://github.com/onlytailei/CppRobotics) - cpp implementation of robotics algorithms including localization, mapping, SLAM, path planning and control
-- [robotics-toolbox-python](https://github.com/petercorke/robotics-toolbox-python) - Robotics Toolbox for Python
 - [self-driving-car](https://github.com/udacity/self-driving-car) - The Udacity open source self-driving car project
 - [Dig-into-Apollo](https://github.com/daohu527/Dig-into-Apollo) - Apollo notes - Apollo learning notes for beginners.
 - [Autoware_tutorial](https://github.com/pixmoving-moveit/Autoware_tutorial) - Autoware Simple Tutorial for Self-driving Car
 
 # 15. Other Tool
-- [PUMA](https://github.com/PRBonn/puma)- Poisson Surface Reconstruction for LiDAR Odometry and Mapping
-- [docker-ros-jupyter](https://github.com/frankjoshua/docker-ros-jupyter) - Runs a Jupyter Notebook with ROS in a Docker container.
+- [CARLA Autonomous Driving Leaderboard](https://leaderboard.carla.org/) - The main goal of the CARLA Autonomous Driving Leaderboard is to evaluate the driving proficiency of autonomous agents in realistic traffic situations.
+- [PUMA](https://github.com/PRBonn/puma) - Poisson Surface Reconstruction for LiDAR Odometry and Mapping
 - [RoboStack for ROS Noetic](https://github.com/RoboStack/ros-noetic) - RoboStack, which tightly couples ROS with Conda, a cross-platform, language-agnostic package manager.
-- [dart](https://github.com/dartsim/dart) - Dynamic Animation and Robotics Toolkit
 - [modelzoo](https://github.com/autowarefoundation/modelzoo) - A collection of machine-learned models for use in autonomous driving applications.
 - [ROSIntegration](https://github.com/code-iai/ROSIntegration) - Unreal Engine Plugin to enable ROS Support
-- [Fastor](https://github.com/romeric/Fastor) - A lightweight high performance tensor algebra framework for modern C++
-- [pointcloud_evaluation_tool](https://github.com/AIS-Bonn/pointcloud_evaluation_tool) - This tool computes the Mean Map Entropy and the Mean Plane Variance of a point cloud.
 - [jupyter-ros](https://github.com/RoboStack/jupyter-ros) - Jupyter widget helpers for ROS, the Robot Operating System
 - [jupyterlab-ros](https://github.com/RoboStack/jupyterlab-ros) - Helper extensions for running ROS from within JupyterLab
-- [bagedit](https://github.com/MHarbi/bagedit) - Catkin version of https://bitbucket.org/daniel_dube/bagedit, which are scripts to manage ROS bag files.
 - [rosbag_editor](https://github.com/facontidavide/rosbag_editor) - Create a rosbag from a given one, using a simple GUI
 - [laser_line_extraction](https://github.com/kam3k/laser_line_extraction) - A ROS package that extracts line segments from LaserScan messages.
-- [ign-rviz](https://github.com/ignitionrobotics/ign-rviz) - ROS 2 visualization using Ignition Libraries
 - [python-pcl](https://github.com/strawlab/python-pcl) - Python bindings to the pointcloud library (pcl)
-- [pyrobot](https://github.com/facebookresearch/pyrobot) - PyRobot: An Open Source Robotics Research Platform
 - [ros_deep_learning](https://github.com/dusty-nv/ros_deep_learning) - Deep learning inference nodes for ROS with support for NVIDIA Jetson TX1/TX2/Xavier and TensorRT
 - [imgui_ros](https://github.com/lucasw/imgui_ros) - View ros images, visualize in 2D and 3D, and interact with nodes through topics and services using ocornut/imgui
-- [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - The Time Series Visualization Tool that you deserve.
 - [ROS-Mobile-Android](https://github.com/ROS-Mobile/ROS-Mobile-Android) - Visualization and controlling application for Android
-- [ros-integrate](https://github.com/Noam-Dori/ros-integrate) - Extends IntelliJ-Based IDEs with ROS specific development tools
 - [PPTK](https://github.com/heremaps/pptk) - The Point Processing Toolkit (pptk) is a Python package for visualizing and processing 2-d/3-d point clouds.
 
 
@@ -254,6 +241,7 @@ with GNSS (global navigation satellite system).
 - [loam_leanring](https://github.com/shoufei403/loam_leanring) - Include loam_velodyne code and A-LOAM code with chinese explaintion.I also put some papers related to loam in it.
 - [UpdatingHDmapByMonoCamera](https://github.com/JokerJohn/UpdatingHDmapByMonoCamera) - a hdmap  updating project by mono camera and gps
 - [awesome-autonomous-vehicle](https://github.com/DeepTecher/awesome-autonomous-vehicle) - 无人驾驶的资源列表中文版
+- [Apollo_learning](https://github.com/lucianzhong/Apollo_learning) - Apollo 学习笔记
 - [python-parallel-programming-cookbook-cn](https://github.com/laixintao/python-parallel-programming-cookbook-cn) - 📖《Python Parallel Programming Cookbook》中文版
 - [SLAM-BOOK](https://github.com/yanyan-li/SLAM-BOOK) - 这是一本关于SLAM的书稿，希望能清楚的介绍SLAM系统中的使用的几何方法和深度学习方法。书稿最后应该会达到400页左右，书稿每章对应的代码也会被整理出来。
 - [opensource_slam_noted](https://github.com/JokerJohn/opensource_slam_noted) - open source slam system  notes
