@@ -77,6 +77,7 @@ The Awesome Self-Driving list
 - [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) - OpenMMLab Semantic Segmentation Toolbox and Benchmark.
 
 # 5. Calibration
+- [multi_sensor_calibration](https://github.com/tudelft-iv/multi_sensor_calibration) - a calibration tool to calibrate a sensor setup consisting of lidars, radars and cameras.
 - [camera_calibration](https://github.com/puzzlepaint/camera_calibration) - Accurate geometric camera calibration with generic camera models
 - [image_projection](https://github.com/tu-darmstadt-ros-pkg/image_projection) - image_projection is a ROS package to create various projections from multiple calibrated cameras.
 - [velo2cam_calibration](https://github.com/beltransen/velo2cam_calibration) - Automatic Extrinsic Calibration Method for LiDAR and Camera Sensor Setups. ROS Package.
@@ -92,6 +93,7 @@ The Awesome Self-Driving list
 - [mrcal](https://github.com/dkogan/mrcal) - mrcal is a generic toolkit to solve calibration and SFM-like problems originating at NASA/JPL. 
 
 # 6. Detection
+- [Pseudo-LiDAR](https://github.com/mileyan/pseudo_lidar) - (CVPR 2019) Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving
 - [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) - Official Python Implementation for "3D Multi-Object Tracking: A Baseline and New Evaluation Metrics"
 - [JRMOT_ROS](https://github.com/StanfordVL/JRMOT_ROS) -  A Real-Time 3D Multi-Object Tracker
 - [bbox](https://github.com/varunagrawal/bbox) - Python library for 2D/3D bounding boxes
@@ -109,6 +111,8 @@ The Awesome Self-Driving list
 # 8. SLAM
 
 ## 8.1. Lidar-based
+
+- [LINS---LiDAR-inertial-SLAM](https://github.com/ChaoqinRobotics/LINS---LiDAR-inertial-SLAM) - A Lidar-Inertial State Estimator for Robust and Efficient Navigation based on iterated error-state Kalman filter
 - [r2live](https://github.com/hku-mars/r2live) - R2LIVE is a robust, real-time tightly-coupled multi-sensor fusion framework, which fuses the measurement from the LiDAR, inertial sensor, visual camera to achieve robust, accurate state estimation.
 - [LaMa](https://github.com/iris-ua/iris_lama) -  A Localization and Mapping library. Low computational effort and low memory usage whenever possible. 
 - [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) - Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain
@@ -124,7 +128,6 @@ The Awesome Self-Driving list
 - [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM) - Advanced implementation of LOAM
 - [floam](https://github.com/wh200720041/floam) - Fast LOAM: Fast and Optimized Lidar Odometry And Mapping   for indoor/outdoor localization (Lidar SLAM)
 - [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam) - 3D LIDAR-based Graph SLAM
-- [LINS---LiDAR-inertial-SLAM](https://github.com/ChaoqinRobotics/LINS---LiDAR-inertial-SLAM) - A Lidar-Inertial State Estimator for Robust and Efficient Navigation based on iterated error-state Kalman filter
 - [lio-mapping](https://github.com/hyye/lio-mapping) - Implementation of Tightly Coupled 3D Lidar Inertial Odometry and Mapping (LIO-mapping)
 - [StaticMapping](https://github.com/EdwardLiuyc/StaticMapping) - Use LiDAR to map the static world
 - [M-LOAM](https://github.com/gogojjh/M-LOAM) - Robust Odometry and Mapping for Multi-LiDAR Systems with Online Extrinsic Calibration
@@ -134,6 +137,7 @@ The Awesome Self-Driving list
 - [ORB_SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) - ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM
 
 ## 8.3. Lidar-Camera-based
+- [LVI-SAM](https://github.com/TixiaoShan/LVI-SAM) - LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping
 - [CamVox](https://github.com/ISEE-Technology/CamVox) - A low-cost SLAM system based on camera and Livox lidar.
 
 ## 8.4. Odometry
@@ -176,14 +180,17 @@ with GNSS (global navigation satellite system).
 - [imu_utils](https://github.com/gaowenliang/imu_utils) - A ROS package tool to analyze the IMU performance.
 
 # 10. Dataset
+- [kapture](https://github.com/naver/kapture) - kapture is a file format as well as a set of tools for manipulating datasets, and in particular Visual Localization and Structure from Motion data.
 - [UrbanLoco](https://github.com/weisongwen/UrbanLoco) - UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes
 - [UrbanNavDataset](https://github.com/weisongwen/UrbanNavDataset) - UrbanNav: an Open-Sourcing Localization Data Collected in Asian Urban Canyons, Including Tokyo and Hong Kong
 
 # 11. Simulation
 - [LGSVL](https://github.com/lgsvl/simulator) - A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles
 - [carla](https://github.com/carla-simulator/carla) - Open-source simulator for autonomous driving research.
+- [autocore_sim](https://github.com/autowarefoundation/autocore_sim) - A ROS1/ROS2 Multi-robot Simulator for Autoware
 
 # 12. Visualization
+- [zethus](https://github.com/rapyuta-robotics/zethus) - Realtime robot data visualization in the browser
 - [webviz](https://github.com/cruise-automation/webviz) - web-based visualization libraries
 - [Foxglove Studio](https://github.com/foxglove/studio) - Foxglove Studio (foxglove.dev) is an integrated visualization and diagnosis tool for robotics.
 - [rviz_satellite](https://github.com/nobleo/rviz_satellite) - Display internet satellite imagery in RViz
