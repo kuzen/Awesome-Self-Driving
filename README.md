@@ -39,10 +39,12 @@ The Awesome Self-Driving list
 - [AutoC2X-AW](https://github.com/esakilab/AutoC2X-AW) - AutoC2X is cooperative awareness driving software, extension for Autoware and OpenC2X. 
 
 # 2. Planning
+- [path_planner](https://github.com/karlkurzer/path_planner) - Hybrid A* Path Planner for the KTH Research Concept Vehicle
 - [PathPlanning](https://github.com/zhm-real/PathPlanning) - Common used path planning algorithms with animations.
+- [MotionPlanning](https://github.com/zhm-real/MotionPlanning) - Motion planning algorithms commonly used on autonomous vehicles. (path planning + path tracking)
 - [mesh_navigation](https://github.com/uos/mesh_navigation) - The Mesh Navigation bundle provides software to perform efficient robot navigation on 2D-manifolds in 3D represented as triangular meshes.
 - [path_optimizer](https://github.com/LiJiangnanBit/path_optimizer) - Real-time path planning for vehicles.
-
+- [full_coverage_path_planner](https://github.com/nobleo/full_coverage_path_planner) - Full coverage path planning provides a move_base_flex plugin that can plan a path that will fully cover a given area
 
 # 3. HD Map
 - [fmm](https://github.com/cyang-kth/fmm) - Fast map matching, an open source framework in C++
@@ -93,6 +95,8 @@ The Awesome Self-Driving list
 - [mrcal](https://github.com/dkogan/mrcal) - mrcal is a generic toolkit to solve calibration and SFM-like problems originating at NASA/JPL. 
 
 # 6. Detection
+- [conditional-lane-detection](https://github.com/aliyun/conditional-lane-detection) - "CondLaneNet: a Top-to-down Lane Detection Framework Based on ConditionalConvolution".
+- [LaneATT](https://github.com/lucastabelini/LaneATT) - Code for the paper entitled "Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection" (CVPR 2021)
 - [Pseudo-LiDAR](https://github.com/mileyan/pseudo_lidar) - (CVPR 2019) Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving
 - [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) - Official Python Implementation for "3D Multi-Object Tracking: A Baseline and New Evaluation Metrics"
 - [JRMOT_ROS](https://github.com/StanfordVL/JRMOT_ROS) -  A Real-Time 3D Multi-Object Tracker
@@ -103,8 +107,11 @@ The Awesome Self-Driving list
 - [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) - OpenPCDet Toolbox for LiDAR-based 3D Object Detection.
 - [LaneDetection_End2End](https://github.com/wvangansbeke/LaneDetection_End2End) - End-to-end Lane Detection for Self-Driving Cars (ICCV 2019 Workshop)
 - [VoxelNetRos](https://github.com/AbangLZU/VoxelNetRos) - implement the VoxelNet with ROS, using Kitti data to test
+- [PLARD](https://github.com/zhechen/PLARD) - Progressive LiDAR Adaptation for Road Detection
+- [RoadMarkingExtraction](https://github.com/YuePanEdward/RoadMarkingExtraction) - A C++ Program for automatically extraction of road markings from MLS or ALS point cloud [ISPRS-A' 19]
 
 # 7. Control
+- [https://github.com/alexliniger/MPCC] - Model Predictive Contouring Controller (MPCC) for Autonomous Racing
 - [mpc_local_planner](https://github.com/rst-tu-dortmund/mpc_local_planner) - It provides a generic and versatile model predictive control implementation with minimum-time and quadratic-form receding-horizon configurations.
 
 
@@ -131,9 +138,11 @@ The Awesome Self-Driving list
 - [lio-mapping](https://github.com/hyye/lio-mapping) - Implementation of Tightly Coupled 3D Lidar Inertial Odometry and Mapping (LIO-mapping)
 - [StaticMapping](https://github.com/EdwardLiuyc/StaticMapping) - Use LiDAR to map the static world
 - [M-LOAM](https://github.com/gogojjh/M-LOAM) - Robust Odometry and Mapping for Multi-LiDAR Systems with Online Extrinsic Calibration
+- [T-LOAM](https://github.com/zpw6106/tloam) - T-LOAM: Truncated Least Squares Lidar-only Odometry and Mapping in Real-Time
 
 
 ## 8.2. Camera-based
+- [ov2slam](https://github.com/ov2slam/ov2slam) - OV²SLAM is a Fully Online and Versatile Visual SLAM for Real-Time Applications
 - [ORB_SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) - ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM
 
 ## 8.3. Lidar-Camera-based
@@ -162,6 +171,7 @@ The Awesome Self-Driving list
 - [OverlapNet](https://github.com/PRBonn/OverlapNet) - OverlapNet - Loop Closing for 3D LiDAR-based SLAM (chen2020rss)
 
 ## 8.8. Other
+- [libRSF](https://github.com/TUC-ProAut/libRSF) - A robust sensor fusion library for online localization.
 - [interactive_slam](https://github.com/SMRT-AIST/interactive_slam) - Interactive Map Correction for 3D Graph SLAM
 - [slam_docker_collection](https://github.com/koide3/slam_docker_collection) - A collection of docker environments for 3D SLAM packages
 - [evo](https://github.com/MichaelGrupp/evo) - Python package for the evaluation of odometry and SLAM
@@ -190,6 +200,8 @@ with GNSS (global navigation satellite system).
 - [autocore_sim](https://github.com/autowarefoundation/autocore_sim) - A ROS1/ROS2 Multi-robot Simulator for Autoware
 
 # 12. Visualization
+- [rosshow](https://github.com/dheera/rosshow) - Visualize ROS topics inside a terminal with Unicode/ASCII art
+- [rosbag_fancy](https://github.com/xqms/rosbag_fancy) - Fancy terminal UI for rosbag
 - [zethus](https://github.com/rapyuta-robotics/zethus) - Realtime robot data visualization in the browser
 - [webviz](https://github.com/cruise-automation/webviz) - web-based visualization libraries
 - [Foxglove Studio](https://github.com/foxglove/studio) - Foxglove Studio (foxglove.dev) is an integrated visualization and diagnosis tool for robotics.
@@ -200,6 +212,7 @@ with GNSS (global navigation satellite system).
 - [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - The Time Series Visualization Tool that you deserve.
 
 # 13. Web
+- [rosboard](https://github.com/dheera/rosboard) - https://github.com/dheera/rosboard
 - [webrtc_ros](https://github.com/RobotWebTools/webrtc_ros) - Streaming of ROS Image Topics using WebRTC
 - [AutomanTools](https://github.com/tier4/AutomanTools) - AutomanTools is an open-source software for self-driving AI.
 - [Rosbag-Analyser](https://github.com/agrija9/Rosbag-Analyser) - Interactive Post-mortem/Live Analysis of ROS Bag Files
@@ -216,6 +229,9 @@ with GNSS (global navigation satellite system).
 - [Autoware_tutorial](https://github.com/pixmoving-moveit/Autoware_tutorial) - Autoware Simple Tutorial for Self-driving Car
 
 # 15. Other Tool
+- [ros_msft_onnx](https://github.com/ms-iot/ros_msft_onnx) - ONNX Runtime for the Robot Operating System (ROS), works on ROS1 and ROS2
+- [catkin_virtualenv](https://github.com/locusrobotics/catkin_virtualenv) - Bundle python requirements in a catkin package via virtualenv
+- [pal_statistics](https://github.com/pal-robotics/pal_statistics) - The PAL Statistics Framework provides a way of gathering, aggregating, storing and visualizing statistics from arbitrary sources in a flexible and real-time safe way in ROS. 
 - [CARLA Autonomous Driving Leaderboard](https://leaderboard.carla.org/) - The main goal of the CARLA Autonomous Driving Leaderboard is to evaluate the driving proficiency of autonomous agents in realistic traffic situations.
 - [PUMA](https://github.com/PRBonn/puma) - Poisson Surface Reconstruction for LiDAR Odometry and Mapping
 - [RoboStack for ROS Noetic](https://github.com/RoboStack/ros-noetic) - RoboStack, which tightly couples ROS with Conda, a cross-platform, language-agnostic package manager.
@@ -233,6 +249,7 @@ with GNSS (global navigation satellite system).
 
 
 # 16. Other Awesome
+- [ICRA2021-SLAM-paper-list](https://github.com/MichaelWang1028/ICRA2021-SLAM-paper-list) - ICRA2021-SLAM-paper-list
 - [Lidar_For_AD_references](https://github.com/beedotkiran/Lidar_For_AD_references) - A list of references on lidar point cloud processing for autonomous driving
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research) - Track Advancement of SLAM 跟踪SLAM前沿动态【2020 version】
 - [Awesome-3D-Detectors](https://github.com/Hub-Tian/Awesome-3D-Detectors) - Paperlist of awesome 3D detection methods
