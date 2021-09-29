@@ -35,6 +35,7 @@ The Awesome Self-Driving list
 - [apollo](https://github.com/ApolloAuto/apollo) - An open autonomous driving platform
 - [Autoware.ai](https://github.com/Autoware-AI/autoware.ai) - Open-source software for self-driving vehicles
 - [AutowareArchitectureProposal.proj](https://github.com/tier4/AutowareArchitectureProposal.proj) - This is the source code of the feasibility study for Autoware architecture proposal.
+- [self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) - This project generates images you've probably seen in autonomous driving demo. 
 - [Aslan](https://github.com/project-aslan/Aslan) - Open source self-driving software for low speed environments
 - [AutoC2X-AW](https://github.com/esakilab/AutoC2X-AW) - AutoC2X is cooperative awareness driving software, extension for Autoware and OpenC2X. 
 
@@ -42,9 +43,11 @@ The Awesome Self-Driving list
 - [path_planner](https://github.com/karlkurzer/path_planner) - Hybrid A* Path Planner for the KTH Research Concept Vehicle
 - [PathPlanning](https://github.com/zhm-real/PathPlanning) - Common used path planning algorithms with animations.
 - [MotionPlanning](https://github.com/zhm-real/MotionPlanning) - Motion planning algorithms commonly used on autonomous vehicles. (path planning + path tracking)
+- [se2_navigation](https://github.com/leggedrobotics/se2_navigation) - Pure pursuit controller and Reeds-Shepp sampling based planner for navigation in SE(2) space. 
 - [mesh_navigation](https://github.com/uos/mesh_navigation) - The Mesh Navigation bundle provides software to perform efficient robot navigation on 2D-manifolds in 3D represented as triangular meshes.
 - [path_optimizer](https://github.com/LiJiangnanBit/path_optimizer) - Real-time path planning for vehicles.
 - [full_coverage_path_planner](https://github.com/nobleo/full_coverage_path_planner) - Full coverage path planning provides a move_base_flex plugin that can plan a path that will fully cover a given area
+- [conformal_lattice_planner](https://github.com/KumarRobotics/conformal_lattice_planner) - conformal lattice planner C++ implementations for autonomous driving tasks. The software is build upon Carla and ROS.
 
 # 3. HD Map
 - [fmm](https://github.com/cyang-kth/fmm) - Fast map matching, an open source framework in C++
@@ -73,6 +76,7 @@ The Awesome Self-Driving list
 - [VectorMap2Opendrive](https://github.com/monkeykane/VectorMap2Opendrive) - Convert Autoware vector map to Opendrive format
 
 # 4. Semantic 
+- [lift-splat-shoot](https://github.com/nv-tlabs/lift-splat-shoot) - Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D (ECCV 2020)
 - [lidar-bonnetal](https://github.com/PRBonn/lidar-bonnetal) - Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving
 - [Kimera-Semantics](https://github.com/MIT-SPARK/Kimera-Semantics) - Real-Time 3D Semantic Reconstruction from 2D data
 - [semantic_suma](https://github.com/PRBonn/semantic_suma) - SuMa++: Efficient LiDAR-based Semantic SLAM (Chen et al IROS 2019)
@@ -171,10 +175,11 @@ The Awesome Self-Driving list
 - [OverlapNet](https://github.com/PRBonn/OverlapNet) - OverlapNet - Loop Closing for 3D LiDAR-based SLAM (chen2020rss)
 
 ## 8.8. Other
+- [evo](https://github.com/MichaelGrupp/evo) - Python package for the evaluation of odometry and SLAM
 - [libRSF](https://github.com/TUC-ProAut/libRSF) - A robust sensor fusion library for online localization.
 - [interactive_slam](https://github.com/SMRT-AIST/interactive_slam) - Interactive Map Correction for 3D Graph SLAM
 - [slam_docker_collection](https://github.com/koide3/slam_docker_collection) - A collection of docker environments for 3D SLAM packages
-- [evo](https://github.com/MichaelGrupp/evo) - Python package for the evaluation of odometry and SLAM
+- [removert](https://github.com/irapkaist/removert) - Remove then revert (IROS 2020)
 
 
 
@@ -198,6 +203,7 @@ with GNSS (global navigation satellite system).
 - [LGSVL](https://github.com/lgsvl/simulator) - A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles
 - [carla](https://github.com/carla-simulator/carla) - Open-source simulator for autonomous driving research.
 - [autocore_sim](https://github.com/autowarefoundation/autocore_sim) - A ROS1/ROS2 Multi-robot Simulator for Autoware
+- [highway-env](https://github.com/eleurent/highway-env) - A minimalist environment for decision-making in autonomous driving
 
 # 12. Visualization
 - [rosshow](https://github.com/dheera/rosshow) - Visualize ROS topics inside a terminal with Unicode/ASCII art
