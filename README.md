@@ -1,88 +1,107 @@
-The Awesome Self-Driving list
+# The Awesome Self-Driving list
 
-- [1. Self-Driving Software](#1-self-driving-software)
-- [2. Planning](#2-planning)
-- [3. HD Map](#3-hd-map)
-  - [3.1. Lanelet2](#31-lanelet2)
-  - [3.2. OSM](#32-osm)
-  - [3.3. OpenDrive](#33-opendrive)
-  - [3.4. Converter](#34-converter)
-- [4. Semantic](#4-semantic)
-- [5. Calibration](#5-calibration)
-- [6. Detection](#6-detection)
-- [7. Control](#7-control)
-- [8. SLAM](#8-slam)
-  - [8.1. Lidar-based](#81-lidar-based)
-  - [8.2. Camera-based](#82-camera-based)
-  - [8.3. Lidar-Camera-based](#83-lidar-camera-based)
-  - [8.4. Odometry](#84-odometry)
-  - [8.5. Registration](#85-registration)
-  - [8.6. Optimization](#86-optimization)
-  - [8.7. Loop Closing](#87-loop-closing)
-  - [8.8. Other](#88-other)
-- [9. GPS, IMU](#9-gps-imu)
-- [10. Dataset](#10-dataset)
-- [11. Simulation](#11-simulation)
-- [12. Visualization](#12-visualization)
-- [13. Web](#13-web)
-- [14. Study](#14-study)
-- [15. Other Tool](#15-other-tool)
-- [16. Other Awesome](#16-other-awesome)
-- [17. For Chinese](#17-for-chinese)
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+
+## Contents
+
+- [The Awesome Self-Driving list](#the-awesome-self-driving-list)
+  - [Contents](#contents)
+  - [1. Self-Driving Software](#1-self-driving-software)
+  - [2. Planning](#2-planning)
+  - [3. HD Map](#3-hd-map)
+    - [3.1. Lanelet2](#31-lanelet2)
+    - [3.2. OSM](#32-osm)
+    - [3.3. OpenDrive](#33-opendrive)
+    - [3.4. Others](#34-others)
+  - [4. Semantic](#4-semantic)
+  - [5. Calibration](#5-calibration)
+  - [6. Detection](#6-detection)
+  - [7. Control](#7-control)
+  - [8. SLAM](#8-slam)
+    - [8.1. Lidar-based](#81-lidar-based)
+    - [8.2. Camera-based](#82-camera-based)
+    - [8.3. Lidar-Camera-based](#83-lidar-camera-based)
+    - [8.4. Odometry](#84-odometry)
+    - [8.5. Registration](#85-registration)
+    - [8.6. Optimization](#86-optimization)
+    - [8.7. Loop Closing](#87-loop-closing)
+    - [8.8. Other](#88-other)
+  - [9. GPS, IMU](#9-gps-imu)
+  - [10. Dataset](#10-dataset)
+  - [11. Simulation](#11-simulation)
+  - [12. Visualization](#12-visualization)
+  - [13. Web](#13-web)
+  - [14. Study](#14-study)
+  - [15. Other Tool](#15-other-tool)
+  - [16. Other Awesome](#16-other-awesome)
+  - [17. For Chinese](#17-for-chinese)
 
 
-# 1. Self-Driving Software
+## 1. Self-Driving Software
+
 - [apollo](https://github.com/ApolloAuto/apollo) - An open autonomous driving platform
 - [Autoware.ai](https://github.com/Autoware-AI/autoware.ai) - Open-source software for self-driving vehicles
 - [AutowareArchitectureProposal.proj](https://github.com/tier4/AutowareArchitectureProposal.proj) - This is the source code of the feasibility study for Autoware architecture proposal.
-- [self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) - This project generates images you've probably seen in autonomous driving demo. 
+- [self-driving-ish_computer_vision_system](https://github.com/iwatake2222/self-driving-ish_computer_vision_system) - This project generates images you've probably seen in autonomous driving demo.
 - [Aslan](https://github.com/project-aslan/Aslan) - Open source self-driving software for low speed environments
-- [AutoC2X-AW](https://github.com/esakilab/AutoC2X-AW) - AutoC2X is cooperative awareness driving software, extension for Autoware and OpenC2X. 
+- [AutoC2X-AW](https://github.com/esakilab/AutoC2X-AW) - AutoC2X is cooperative awareness driving software, extension for Autoware and OpenC2X.
 
-# 2. Planning
+## 2. Planning
+
+- [omg-tools](https://github.com/meco-group/omg-tools) - Optimal Motion Generation-tools: motion planning made easy
 - [path_planner](https://github.com/karlkurzer/path_planner) - Hybrid A* Path Planner for the KTH Research Concept Vehicle
 - [PathPlanning](https://github.com/zhm-real/PathPlanning) - Common used path planning algorithms with animations.
 - [MotionPlanning](https://github.com/zhm-real/MotionPlanning) - Motion planning algorithms commonly used on autonomous vehicles. (path planning + path tracking)
-- [se2_navigation](https://github.com/leggedrobotics/se2_navigation) - Pure pursuit controller and Reeds-Shepp sampling based planner for navigation in SE(2) space. 
+- [se2_navigation](https://github.com/leggedrobotics/se2_navigation) - Pure pursuit controller and Reeds-Shepp sampling based planner for navigation in SE(2) space.
 - [mesh_navigation](https://github.com/uos/mesh_navigation) - The Mesh Navigation bundle provides software to perform efficient robot navigation on 2D-manifolds in 3D represented as triangular meshes.
 - [path_optimizer](https://github.com/LiJiangnanBit/path_optimizer) - Real-time path planning for vehicles.
 - [full_coverage_path_planner](https://github.com/nobleo/full_coverage_path_planner) - Full coverage path planning provides a move_base_flex plugin that can plan a path that will fully cover a given area
 - [conformal_lattice_planner](https://github.com/KumarRobotics/conformal_lattice_planner) - conformal lattice planner C++ implementations for autonomous driving tasks. The software is build upon Carla and ROS.
 
-# 3. HD Map
+## 3. HD Map
+
 - [fmm](https://github.com/cyang-kth/fmm) - Fast map matching, an open source framework in C++
-- [Tier4 Tool](https://tools.tier4.jp/) - Vector Map Builder is a tool that helps to create a vector map from point cloud data. 
+- [Tier4 Tool](https://tools.tier4.jp/) - Vector Map Builder is a tool that helps to create a vector map from point cloud data.
   
-## 3.1. Lanelet2
+### 3.1. Lanelet2
+
 - [MapToolbox](https://github.com/autocore-ai/MapToolbox) - Plugins to make Lanelet2/vector_map in Unity
 - [AssureMappingTools](https://github.com/hatem-darweesh/assuremappingtools) - Desktop based tool for viewing, editing and saving road network maps for autonomous vehicle platforms such as Autoware.
 - [Lanelet2](https://github.com/fzi-forschungszentrum-informatik/Lanelet2) - Map handling framework for automated driving
 - [lanelet_rviz_plugin_ros](https://github.com/coincar-sim/lanelet_rviz_plugin_ros) - Rviz Plugin for displaying a lanelet2 map.
 
-## 3.2. OSM
+### 3.2. OSM
+
 - [JOSM](https://github.com/openstreetmap/josm) - the Java OpenStreetMap Editor
+- [prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
 - [GMapCatcher](https://github.com/heldersepu/GMapCatcher) - An offline map viewer
 
-## 3.3. OpenDrive
+### 3.3. OpenDrive
+
+- [libOpenDRIVE](https://github.com/grepthat/libOpenDRIVE) - Small, lightweight C++ library for handling OpenDRIVE filess
 - [opendriveparser](https://github.com/liuyf5231/opendriveparser) - OpenDRIVE Map parser
 - [OpenDriveOnlineEditor](https://github.com/Olodus/OpenDriveOnlineEditor) - Web based viewer of OpenDrive (xodr) files (editing not implemented yet)
 
-## 3.4. Converter
-- [opendrive2lanelets-converter](https://github.com/wenlong-dev/opendrive2lanelets-converter) - This is an unofficial copy of https://commonroad.in.tum.de/tools/opendrive2lanelet
+### 3.4. Others
+
+- [OpenHDMap](https://github.com/Flycars/OpenHDMap) - An open HD map production process for autonomous car simulation
+- [opendrive2lanelets-converter](https://github.com/wenlong-dev/opendrive2lanelets-converter) - This is an unofficial copy of <https://commonroad.in.tum.de/tools/opendrive2lanelet>
 - [opendrive2lanelet](https://github.com/itabrl/opendrive2lanelet) - opendrive to lanelet2
 - [osm2xodr](https://github.com/JHMeusener/osm2xodr) - converter for OpenStreetMaps to OpenDrive roads - for use with Carla or other things
 - [xodr-OSM-Converter](https://github.com/tiev-tongji/xodr-OSM-Converter) - OpenDrive to osm
 - [osm2opendrive](https://github.com/CWGran/osm2opendrive) - A tool for generating OpenDRIVE maps from OpenStreetMap data
 - [VectorMap2Opendrive](https://github.com/monkeykane/VectorMap2Opendrive) - Convert Autoware vector map to Opendrive format
 
-# 4. Semantic 
+## 4. Semantic
+
 - [lift-splat-shoot](https://github.com/nv-tlabs/lift-splat-shoot) - Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D (ECCV 2020)
 - [lidar-bonnetal](https://github.com/PRBonn/lidar-bonnetal) - Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving
 - [Kimera-Semantics](https://github.com/MIT-SPARK/Kimera-Semantics) - Real-Time 3D Semantic Reconstruction from 2D data
 - [semantic_suma](https://github.com/PRBonn/semantic_suma) - SuMa++: Efficient LiDAR-based Semantic SLAM (Chen et al IROS 2019)
 - [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) - OpenMMLab Semantic Segmentation Toolbox and Benchmark.
 
-# 5. Calibration
+## 5. Calibration
+
 - [multi_sensor_calibration](https://github.com/tudelft-iv/multi_sensor_calibration) - a calibration tool to calibrate a sensor setup consisting of lidars, radars and cameras.
 - [camera_calibration](https://github.com/puzzlepaint/camera_calibration) - Accurate geometric camera calibration with generic camera models
 - [image_projection](https://github.com/tu-darmstadt-ros-pkg/image_projection) - image_projection is a ROS package to create various projections from multiple calibrated cameras.
@@ -96,12 +115,15 @@ The Awesome Self-Driving list
 - [lidar_IMU_calib](https://github.com/APRIL-ZJU/lidar_IMU_calib) - Targetless Calibration of LiDAR-IMU System Based on Continuous-time Batch Estimation
 - [lidar_align](https://github.com/ethz-asl/lidar_align) - A simple method for finding the extrinsic calibration between a 3D lidar and a 6-dof pose sensor
 - [extrinsic_lidar_camera_calibration](https://github.com/UMich-BipedLab/extrinsic_lidar_camera_calibration) - This is a package for extrinsic calibration between a 3D LiDAR and a camera, described in paper: Improvements to Target-Based 3D LiDAR to Camera Calibration.
-- [mrcal](https://github.com/dkogan/mrcal) - mrcal is a generic toolkit to solve calibration and SFM-like problems originating at NASA/JPL. 
+- [mrcal](https://github.com/dkogan/mrcal) - mrcal is a generic toolkit to solve calibration and SFM-like problems originating at NASA/JPL.
 
-# 6. Detection
+## 6. Detection
+
+- [urban_road_filter](https://github.com/jkk-research/urban_road_filter) - Real-time LIDAR-based Urban Road and Sidewalk detection for Autonomous Vehicles
 - [conditional-lane-detection](https://github.com/aliyun/conditional-lane-detection) - "CondLaneNet: a Top-to-down Lane Detection Framework Based on ConditionalConvolution".
 - [LaneATT](https://github.com/lucastabelini/LaneATT) - Code for the paper entitled "Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection" (CVPR 2021)
 - [Pseudo-LiDAR](https://github.com/mileyan/pseudo_lidar) - (CVPR 2019) Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving
+- [depth_clustering](https://github.com/PRBonn/depth_clustering) - Fast and robust clustering of point clouds generated with a Velodyne sensor.
 - [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) - Official Python Implementation for "3D Multi-Object Tracking: A Baseline and New Evaluation Metrics"
 - [JRMOT_ROS](https://github.com/StanfordVL/JRMOT_ROS) -  A Real-Time 3D Multi-Object Tracker
 - [bbox](https://github.com/varunagrawal/bbox) - Python library for 2D/3D bounding boxes
@@ -114,18 +136,20 @@ The Awesome Self-Driving list
 - [PLARD](https://github.com/zhechen/PLARD) - Progressive LiDAR Adaptation for Road Detection
 - [RoadMarkingExtraction](https://github.com/YuePanEdward/RoadMarkingExtraction) - A C++ Program for automatically extraction of road markings from MLS or ALS point cloud [ISPRS-A' 19]
 
-# 7. Control
+## 7. Control
+
 - [https://github.com/alexliniger/MPCC] - Model Predictive Contouring Controller (MPCC) for Autonomous Racing
 - [mpc_local_planner](https://github.com/rst-tu-dortmund/mpc_local_planner) - It provides a generic and versatile model predictive control implementation with minimum-time and quadratic-form receding-horizon configurations.
 
 
-# 8. SLAM
+## 8. SLAM
 
-## 8.1. Lidar-based
+### 8.1. Lidar-based
 
+- [clins](https://github.com/APRIL-ZJU/clins) - CLINS: Continuous-Time Trajectory Estimation for LiDAR-Inertial System
 - [LINS---LiDAR-inertial-SLAM](https://github.com/ChaoqinRobotics/LINS---LiDAR-inertial-SLAM) - A Lidar-Inertial State Estimator for Robust and Efficient Navigation based on iterated error-state Kalman filter
 - [r2live](https://github.com/hku-mars/r2live) - R2LIVE is a robust, real-time tightly-coupled multi-sensor fusion framework, which fuses the measurement from the LiDAR, inertial sensor, visual camera to achieve robust, accurate state estimation.
-- [LaMa](https://github.com/iris-ua/iris_lama) -  A Localization and Mapping library. Low computational effort and low memory usage whenever possible. 
+- [LaMa](https://github.com/iris-ua/iris_lama) -  A Localization and Mapping library. Low computational effort and low memory usage whenever possible.
 - [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) - Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain
 - [SSL_SLAM2](https://github.com/wh200720041/ssl_slam2) - Lightweight 3-D Localization and Mapping for Solid-State LiDAR (mapping and localization separated) ICRA 2021
 - [iscloam](https://github.com/wh200720041/iscloam) - Intensity Scan Context based full SLAM implementation for autonomous driving. ICRA 2020
@@ -145,36 +169,44 @@ The Awesome Self-Driving list
 - [T-LOAM](https://github.com/zpw6106/tloam) - T-LOAM: Truncated Least Squares Lidar-only Odometry and Mapping in Real-Time
 
 
-## 8.2. Camera-based
+### 8.2. Camera-based
+
 - [ov2slam](https://github.com/ov2slam/ov2slam) - OV²SLAM is a Fully Online and Versatile Visual SLAM for Real-Time Applications
 - [ORB_SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) - ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM
 
-## 8.3. Lidar-Camera-based
+### 8.3. Lidar-Camera-based
+
+- [r3live](https://github.com/hku-mars/r3live) - A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package
 - [LVI-SAM](https://github.com/TixiaoShan/LVI-SAM) - LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping
 - [CamVox](https://github.com/ISEE-Technology/CamVox) - A low-cost SLAM system based on camera and Livox lidar.
 
-## 8.4. Odometry
+### 8.4. Odometry
+
 - [FAST_LIO](https://github.com/hku-mars/FAST_LIO) - A computationally efficient and robust LiDAR-inertial odometry (LIO) package
 - [ESVO](https://github.com/HKUST-Aerial-Robotics/ESVO) - This repository maintains the implementation of "Event-based Stereo Visual Odometry".
 - [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) - LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping
 - [LOL](https://github.com/RozDavid/LOL) - LOL: Lidar-only Odometry and Localization in 3D point cloud maps
 
-## 8.5. Registration
+### 8.5. Registration
+
 - [UnsupervisedR&R](https://github.com/mbanani/unsupervisedrr) - Unsupervised Pointcloud Registration via Differentiable Rendering
 - [scancontext](https://github.com/irapkaist/scancontext) - Global LiDAR descriptor for place recognition and long-term localization
 - [3d-icp-cov](https://github.com/CAOR-MINES-ParisTech/3d-icp-cov) - Code for the paper "A New Approach to 3D ICP Covariance Estimation for Mobile Robotics"
 - [TEASER-plusplus](https://github.com/MIT-SPARK/TEASER-plusplus) - A fast and robust point cloud registration library
 - [FS3R](https://github.com/zarathustr/FS3R) - A Fast Symbolic 3D Registration Solution from HKUST RAM-LAB
 
-## 8.6. Optimization
+### 8.6. Optimization
+
 - [voxgraph](https://github.com/ethz-asl/voxgraph) - Voxblox-based Pose graph optimization
 - [Kimera-RPGO](https://github.com/MIT-SPARK/Kimera-RPGO) - Robust Pose Graph Optimization
 - [MOLA](https://github.com/MOLAorg/mola) - A Modular Optimization framework for Localization and mapping
 
-## 8.7. Loop Closing
+### 8.7. Loop Closing
+
 - [OverlapNet](https://github.com/PRBonn/OverlapNet) - OverlapNet - Loop Closing for 3D LiDAR-based SLAM (chen2020rss)
 
-## 8.8. Other
+### 8.8. Other
+
 - [evo](https://github.com/MichaelGrupp/evo) - Python package for the evaluation of odometry and SLAM
 - [libRSF](https://github.com/TUC-ProAut/libRSF) - A robust sensor fusion library for online localization.
 - [interactive_slam](https://github.com/SMRT-AIST/interactive_slam) - Interactive Map Correction for 3D Graph SLAM
@@ -183,29 +215,35 @@ The Awesome Self-Driving list
 
 
 
-# 9. GPS, IMU
+## 9. GPS, IMU
+
 - [imu_tools](https://github.com/ccny-ros-pkg/imu_tools) - ROS tools for IMU devices
 - [PPPLib](https://github.com/heiwa0519/PPPLib) - Precise Point Positioning Library
 - [RTKLIB](https://github.com/tomojitakasu/RTKLIB) - RTKLIB is an open source program package for standard and precise positioning
 with GNSS (global navigation satellite system).
+- [gnss-ins-sim](https://github.com/Aceinna/gnss-ins-sim) - Open-source GNSS + inertial navigation, sensor fusion simulator. Motion trajectory generator, sensor models, and navigation
 - [rtklib_ros_bridge](https://github.com/MapIV/rtklib_ros_bridge) - rtklib_ros_bridge is a package that outputs the latitude and longitude, satellite reception status, altitude, ecef xyz, ecef velocity vector, and Time of Week (GPS Time) calculated by RTKLIB as ROS messages.
 - [ntpd_driver](https://github.com/vooon/ntpd_driver) - This node convert ROS TimeReference message to ntpd-shm format.
 - [eagleye](https://github.com/MapIV/eagleye) - Precise localization based on GNSS and IMU.
 - [GPS_IMU_Kalman_Filter](https://github.com/karanchawla/GPS_IMU_Kalman_Filter) - Fusing GPS, IMU and Encoder sensors for accurate state estimation.
 - [imu_utils](https://github.com/gaowenliang/imu_utils) - A ROS package tool to analyze the IMU performance.
 
-# 10. Dataset
+## 10. Dataset
+
 - [kapture](https://github.com/naver/kapture) - kapture is a file format as well as a set of tools for manipulating datasets, and in particular Visual Localization and Structure from Motion data.
 - [UrbanLoco](https://github.com/weisongwen/UrbanLoco) - UrbanLoco: A Full Sensor Suite Dataset for Mapping and Localization in Urban Scenes
 - [UrbanNavDataset](https://github.com/weisongwen/UrbanNavDataset) - UrbanNav: an Open-Sourcing Localization Data Collected in Asian Urban Canyons, Including Tokyo and Hong Kong
+- [mapping_dataset_styria](https://github.com/ARTI-Robots/mapping_dataset_styria) - Open mapping dataset of styria in Austria
 
-# 11. Simulation
+## 11. Simulation
+
 - [LGSVL](https://github.com/lgsvl/simulator) - A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles
 - [carla](https://github.com/carla-simulator/carla) - Open-source simulator for autonomous driving research.
 - [autocore_sim](https://github.com/autowarefoundation/autocore_sim) - A ROS1/ROS2 Multi-robot Simulator for Autoware
 - [highway-env](https://github.com/eleurent/highway-env) - A minimalist environment for decision-making in autonomous driving
 
-# 12. Visualization
+## 12. Visualization
+
 - [rosshow](https://github.com/dheera/rosshow) - Visualize ROS topics inside a terminal with Unicode/ASCII art
 - [rosbag_fancy](https://github.com/xqms/rosbag_fancy) - Fancy terminal UI for rosbag
 - [zethus](https://github.com/rapyuta-robotics/zethus) - Realtime robot data visualization in the browser
@@ -217,14 +255,16 @@ with GNSS (global navigation satellite system).
 - [rviz_visual_tools](https://github.com/PickNikRobotics/rviz_visual_tools) - C++ API wrapper for displaying shapes and meshes in Rviz
 - [PlotJuggler](https://github.com/facontidavide/PlotJuggler) - The Time Series Visualization Tool that you deserve.
 
-# 13. Web
-- [rosboard](https://github.com/dheera/rosboard) - https://github.com/dheera/rosboard
+## 13. Web
+
+- [rosboard](https://github.com/dheera/rosboard) - <https://github.com/dheera/rosboard>
 - [webrtc_ros](https://github.com/RobotWebTools/webrtc_ros) - Streaming of ROS Image Topics using WebRTC
 - [AutomanTools](https://github.com/tier4/AutomanTools) - AutomanTools is an open-source software for self-driving AI.
 - [Rosbag-Analyser](https://github.com/agrija9/Rosbag-Analyser) - Interactive Post-mortem/Live Analysis of ROS Bag Files
 
 
-# 14. Study
+## 14. Study
+
 - [visual-slam-roadmap](https://github.com/changh95/visual-slam-roadmap) - Roadmap to becoming a Visual-SLAM developer in 2021
 - [RosHowTwo](https://github.com/rydb/RosHowTwo) - A place to find and share ROS2 learning resources!
 - [Eigen-Cheatsheet](https://github.com/zxl19/Eigen-Cheatsheet) - A cheatsheet of Eigen, the C++ linear algebra library.
@@ -234,10 +274,13 @@ with GNSS (global navigation satellite system).
 - [Dig-into-Apollo](https://github.com/daohu527/Dig-into-Apollo) - Apollo notes - Apollo learning notes for beginners.
 - [Autoware_tutorial](https://github.com/pixmoving-moveit/Autoware_tutorial) - Autoware Simple Tutorial for Self-driving Car
 
-# 15. Other Tool
+## 15. Other Tool
+
+- [MegBA](https://github.com/MegviiRobot/MegBA) - MegBA: A Distributed High-Performance Library for Large-Scale Bundle Adjustment with GPUs
+- [ikd-Tree](https://github.com/hku-mars/ikd-Tree) - This repository provides implementation of an incremental k-d tree for robotic applications.
 - [ros_msft_onnx](https://github.com/ms-iot/ros_msft_onnx) - ONNX Runtime for the Robot Operating System (ROS), works on ROS1 and ROS2
 - [catkin_virtualenv](https://github.com/locusrobotics/catkin_virtualenv) - Bundle python requirements in a catkin package via virtualenv
-- [pal_statistics](https://github.com/pal-robotics/pal_statistics) - The PAL Statistics Framework provides a way of gathering, aggregating, storing and visualizing statistics from arbitrary sources in a flexible and real-time safe way in ROS. 
+- [pal_statistics](https://github.com/pal-robotics/pal_statistics) - The PAL Statistics Framework provides a way of gathering, aggregating, storing and visualizing statistics from arbitrary sources in a flexible and real-time safe way in ROS.
 - [CARLA Autonomous Driving Leaderboard](https://leaderboard.carla.org/) - The main goal of the CARLA Autonomous Driving Leaderboard is to evaluate the driving proficiency of autonomous agents in realistic traffic situations.
 - [PUMA](https://github.com/PRBonn/puma) - Poisson Surface Reconstruction for LiDAR Odometry and Mapping
 - [RoboStack for ROS Noetic](https://github.com/RoboStack/ros-noetic) - RoboStack, which tightly couples ROS with Conda, a cross-platform, language-agnostic package manager.
@@ -254,20 +297,22 @@ with GNSS (global navigation satellite system).
 - [PPTK](https://github.com/heremaps/pptk) - The Point Processing Toolkit (pptk) is a Python package for visualizing and processing 2-d/3-d point clouds.
 
 
-# 16. Other Awesome
+## 16. Other Awesome
+
 - [ICRA2021-SLAM-paper-list](https://github.com/MichaelWang1028/ICRA2021-SLAM-paper-list) - ICRA2021-SLAM-paper-list
 - [Lidar_For_AD_references](https://github.com/beedotkiran/Lidar_For_AD_references) - A list of references on lidar point cloud processing for autonomous driving
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research) - Track Advancement of SLAM 跟踪SLAM前沿动态【2020 version】
 - [Awesome-3D-Detectors](https://github.com/Hub-Tian/Awesome-3D-Detectors) - Paperlist of awesome 3D detection methods
 - [awesome-pointcloud-processing](https://github.com/Tom-Hardy-3D-Vision-Workshop/awesome-pointcloud-processing) - awesome PointCloud processing algorithm
-- [awesome-robotic-tooling](https://github.com/protontypes/awesome-robotic-tooling) - Tooling for professional robotic development in C++ and Python with a touch of ROS, autonomous driving and aerospace: https://freerobotics.tools/
+- [awesome-robotic-tooling](https://github.com/protontypes/awesome-robotic-tooling) - Tooling for professional robotic development in C++ and Python with a touch of ROS, autonomous driving and aerospace: <https://freerobotics.tools/>
 - [awesome-data-labeling](https://github.com/heartexlabs/awesome-data-labeling) - A curated list of awesome data labeling tools
-- [Awesome-Autonomous-Driving](https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving) - 
+- [Awesome-Autonomous-Driving](https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving) -
 - [awesome-autonomous-vehicles](https://github.com/manfreddiaz/awesome-autonomous-vehicles) - Curated List of Self-Driving Cars and Autonomous Vehicles Resources
 - [awesome-point-cloud-processing](https://github.com/mmolero/awesome-point-cloud-processing) - A curated list of awesome Point Cloud Processing Resources, Libraries, Software
 - [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) - A list of papers and datasets about point cloud analysis (processing)
 
-# 17. For Chinese
+## 17. For Chinese
+
 - [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED) - loam code noted in Chinese（loam中文注解版）
 - [LeGO-LOAM_NOTED](https://github.com/wykxwyc/LeGO-LOAM_NOTED) - LeGO-LOAM代码注释与学习
 - [loam_leanring](https://github.com/shoufei403/loam_leanring) - Include loam_velodyne code and A-LOAM code with chinese explaintion.I also put some papers related to loam in it.
@@ -276,10 +321,10 @@ with GNSS (global navigation satellite system).
 - [Apollo_learning](https://github.com/lucianzhong/Apollo_learning) - Apollo 学习笔记
 - [python-parallel-programming-cookbook-cn](https://github.com/laixintao/python-parallel-programming-cookbook-cn) - 📖《Python Parallel Programming Cookbook》中文版
 - [SLAM-BOOK](https://github.com/yanyan-li/SLAM-BOOK) - 这是一本关于SLAM的书稿，希望能清楚的介绍SLAM系统中的使用的几何方法和深度学习方法。书稿最后应该会达到400页左右，书稿每章对应的代码也会被整理出来。
+- [surround-view-system-introduction](https://github.com/neozhaoliang/surround-view-system-introduction) - 一份简单的环视系统制作实现，包含完整的标定、投影、拼接和实时运行流程
 - [opensource_slam_noted](https://github.com/JokerJohn/opensource_slam_noted) - open source slam system  notes
 - [Statistical-Learning-Method_Code](https://github.com/Dod-o/Statistical-Learning-Method_Code) - 手写实现李航《统计学习方法》书中全部算法
 - [DeepLearning](https://github.com/MingchaoZhu/DeepLearning) - Python for《Deep Learning》，该书为《深度学习》(花书) 数学推导、原理剖析与源码级别代码实现
 - [localization_in_auto_driving](https://github.com/Little-Potato-1990/localization_in_auto_driving) - 从零开始做自动驾驶定位
 - [Effective-Modern-Cpp-Zh](https://github.com/Ricardo666666/Effective-Modern-Cpp-Zh) - 42 SPECIFIC WAYS TO IMPROVE YOUR USE OF C++11 AND C++14 中文版
 - [PCL-Notes](https://github.com/MNewBie/PCL-Notes) - pcl learning notes
-
