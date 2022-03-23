@@ -1,2 +1,3 @@
 .vscode
 workspace.code-workspace
+*.sh
