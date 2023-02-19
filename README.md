@@ -45,12 +45,14 @@
 
 ## 2. Planning
 
-- [gbplanner_ros](https://github.com/ntnu-arl/gbplanner_ros) - Graph-based Exploration Planner for Subterranean Environments.
+- [ompl](https://github.com/ompl/ompl) - The Open Motion Planning Library (OMPL).
 - [omg-tools](https://github.com/meco-group/omg-tools) - Optimal Motion Generation-tools: motion planning made easy.
+- [gbplanner_ros](https://github.com/ntnu-arl/gbplanner_ros) - Graph-based Exploration Planner for Subterranean Environments.
 - [path_planner](https://github.com/karlkurzer/path_planner) - Hybrid A* Path Planner for the KTH Research Concept Vehicle.
 - [PathPlanning](https://github.com/zhm-real/PathPlanning) - Common used path planning algorithms with animations.
 - [MotionPlanning](https://github.com/zhm-real/MotionPlanning) - Motion planning algorithms commonly used on autonomous vehicles. (path planning + path tracking).
 - [se2_navigation](https://github.com/leggedrobotics/se2_navigation) - Pure pursuit controller and Reeds-Shepp sampling based planner for navigation in SE(2) space.
+- [far_planner](https://github.com/MichaelFYang/far_planner) - Fast, Attemptable Route Planner for Navigation in Known and Unknown Environments
 - [mesh_navigation](https://github.com/uos/mesh_navigation) - The Mesh Navigation bundle provides software to perform efficient robot navigation on 2D-manifolds in 3D represented as triangular meshes.
 - [path_optimizer](https://github.com/LiJiangnanBit/path_optimizer) - Real-time path planning for vehicles.
 - [full_coverage_path_planner](https://github.com/nobleo/full_coverage_path_planner) - Full coverage path planning provides a move_base_flex plugin that can plan a path that will fully cover a given area.
@@ -82,6 +84,7 @@
 
 ### 3.4. Others
 
+- [QGIS](https://github.com/qgis/QGIS) - QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS).
 - [OpenHDMap](https://github.com/Flycars/OpenHDMap) - An open HD map production process for autonomous car simulation.
 - [opendrive2lanelets-converter](https://github.com/wenlong-dev/opendrive2lanelets-converter) - This is an unofficial copy of <https://commonroad.in.tum.de/tools/opendrive2lanelet>.
 - [opendrive2lanelet](https://github.com/itabrl/opendrive2lanelet) - Opendrive to lanelet2.
@@ -100,6 +103,8 @@
 
 ## 5. Calibration
 
+- [multiple-cameras-and-3D-LiDARs-extrinsic-calibration](https://github.com/alibaba/multiple-cameras-and-3D-LiDARs-extrinsic-calibration) - This repo contains source code of our paper presented in IROS2021 "Single-Shot is Enough: Panoramic Infrastructure Based Calibration of Multiple Cameras and 3D LiDARs"
+- [SensorsCalibration](https://github.com/PJLab-ADG/SensorsCalibration) - OpenCalib: A Multi-sensor Calibration Toolbox for Autonomous Driving.
 - [multi_sensor_calibration](https://github.com/tudelft-iv/multi_sensor_calibration) - A calibration tool to calibrate a sensor setup consisting of lidars, radars and cameras.
 - [camera_calibration](https://github.com/puzzlepaint/camera_calibration) - Accurate geometric camera calibration with generic camera models.
 - [image_projection](https://github.com/tu-darmstadt-ros-pkg/image_projection) - Image_projection is a ROS package to create various projections from multiple calibrated cameras.
@@ -117,6 +122,8 @@
 
 ## 6. Detection
 
+- [MapTR](https://github.com/hustvl/MapTR) - [ICLR'23 Spotlight] MapTR: Structured Modeling and Learning for Online Vectorized HD Map Construction
+- [patchwork++](https://github.com/url-kaist/patchwork-plusplus) - Patchwork++: Fast and robust ground segmentation method for 3D point cloud. @ IROS'22.
 - [urban_road_filter](https://github.com/jkk-research/urban_road_filter) - Real-time LIDAR-based Urban Road and Sidewalk detection for Autonomous Vehicles.
 - [conditional-lane-detection](https://github.com/aliyun/conditional-lane-detection) - "CondLaneNet: a Top-to-down Lane Detection Framework Based on ConditionalConvolution".
 - [LaneATT](https://github.com/lucastabelini/LaneATT) - Code for the paper entitled "Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection" (CVPR 2021).
@@ -148,11 +155,8 @@
 - [clins](https://github.com/APRIL-ZJU/clins) - CLINS: Continuous-Time Trajectory Estimation for LiDAR-Inertial System.
 - [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) - LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping.
 - [LINS---LiDAR-inertial-SLAM](https://github.com/ChaoqinRobotics/LINS---LiDAR-inertial-SLAM) - A Lidar-Inertial State Estimator for Robust and Efficient Navigation based on iterated error-state Kalman filter.
-- [r2live](https://github.com/hku-mars/r2live) - R2LIVE is a robust, real-time tightly-coupled multi-sensor fusion framework, which fuses the measurement from the LiDAR, inertial sensor, visual camera to achieve robust, accurate state estimation.
 - [LaMa](https://github.com/iris-ua/iris_lama) -  A Localization and Mapping library. Low computational effort and low memory usage whenever possible.
 - [LeGO-LOAM](https://github.com/RobustFieldAutonomyLab/LeGO-LOAM) - Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain.
-- [SSL_SLAM2](https://github.com/wh200720041/ssl_slam2) - Lightweight 3-D Localization and Mapping for Solid-State LiDAR (mapping and localization separated) ICRA 2021.
-- [iscloam](https://github.com/wh200720041/iscloam) - Intensity Scan Context based full SLAM implementation for autonomous driving. ICRA 2020.
 - [loam_livox](https://github.com/hku-mars/loam_livox) - A robust LiDAR Odometry and Mapping (LOAM) package for Livox-LiDAR.
 - [decentralized_loam](https://github.com/hku-mars/decentralized_loam) - A decentralized framework for simultaneous calibration, localization and mapping with multiple LiDARs
 - [SC-LIO-SAM](https://github.com/gisbi-kim/SC-LIO-SAM) - LiDAR-inertial SLAM: Scan Context + LIO-SAM.
@@ -164,10 +168,7 @@
 - [floam](https://github.com/wh200720041/floam) - Fast LOAM: Fast and Optimized Lidar Odometry And Mapping   for indoor/outdoor localization (Lidar SLAM).
 - [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam) - 3D LIDAR-based Graph SLAM.
 - [lio-mapping](https://github.com/hyye/lio-mapping) - Implementation of Tightly Coupled 3D Lidar Inertial Odometry and Mapping (LIO-mapping).
-- [StaticMapping](https://github.com/EdwardLiuyc/StaticMapping) - Use LiDAR to map the static world.
 - [M-LOAM](https://github.com/gogojjh/M-LOAM) - Robust Odometry and Mapping for Multi-LiDAR Systems with Online Extrinsic Calibration.
-- [T-LOAM](https://github.com/zpw6106/tloam) - T-LOAM: Truncated Least Squares Lidar-only Odometry and Mapping in Real-Time.
-
 
 ### 8.2. Camera-based
 
@@ -241,10 +242,11 @@ with GNSS (global navigation satellite system).
 
 ## 11. Simulation
 
-- [LGSVL](https://github.com/lgsvl/simulator) - A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles.
+- [AWSIM](https://github.com/tier4/AWSIM) - Open source simulator for self-driving vehicles.
 - [carla](https://github.com/carla-simulator/carla) - Open-source simulator for autonomous driving research.
 - [autocore_sim](https://github.com/autowarefoundation/autocore_sim) - A ROS1/ROS2 Multi-robot Simulator for Autoware.
 - [highway-env](https://github.com/eleurent/highway-env) - A minimalist environment for decision-making in autonomous driving.
+- [LGSVL](https://github.com/lgsvl/simulator) - A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles.
 
 ## 12. Visualization
 
@@ -253,6 +255,7 @@ with GNSS (global navigation satellite system).
 - [zethus](https://github.com/rapyuta-robotics/zethus) - Realtime robot data visualization in the browser.
 - [webviz](https://github.com/cruise-automation/webviz) - Web-based visualization libraries.
 - [Foxglove Studio](https://github.com/foxglove/studio) - Foxglove Studio (foxglove.dev) is an integrated visualization and diagnosis tool for robotics.
+- [3D-Detection-Tracking-Viewer](https://github.com/hailanyi/3D-Detection-Tracking-Viewer) - 3D detection and tracking viewer (visualization) for kitti & waymo dataset.
 - [rviz_satellite](https://github.com/nobleo/rviz_satellite) - Display internet satellite imagery in RViz.
 - [mapviz](https://github.com/swri-robotics/mapviz) - Modular ROS visualization tool for 2D data.
 - [streetscape.gl](https://github.com/uber/streetscape.gl) - Visualization framework for autonomy and robotics data encoded in XVIZ.
@@ -280,6 +283,9 @@ with GNSS (global navigation satellite system).
 
 ## 15. Other Tool
 
+- [PoseLib](https://github.com/vlarsson/PoseLib) - Minimal solvers for calibrated camera pose estimation
+- [ros2-for-unity](https://github.com/RobotecAI/ros2-for-unity) - High-performance ROS2 solution for Unity3D.
+- [semantic-segmentation-editor](https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor) - Web labeling tool for bitmap images and point clouds.
 - [MegBA](https://github.com/MegviiRobot/MegBA) - MegBA: A Distributed High-Performance Library for Large-Scale Bundle Adjustment with GPUs.
 - [ikd-Tree](https://github.com/hku-mars/ikd-Tree) - This repository provides implementation of an incremental k-d tree for robotic applications.
 - [ros_msft_onnx](https://github.com/ms-iot/ros_msft_onnx) - ONNX Runtime for the Robot Operating System (ROS), works on ROS1 and ROS2.
@@ -303,6 +309,7 @@ with GNSS (global navigation satellite system).
 
 ## 16. Other Awesome
 
+- [/awesome-slam-datasets](https://github.com/youngguncho/awesome-slam-datasets) - A curated list of awesome datasets for SLAM.
 - [ICRA2021-SLAM-paper-list](https://github.com/MichaelWang1028/ICRA2021-SLAM-paper-list) - ICRA2021-SLAM-paper-list.
 - [Lidar_For_AD_references](https://github.com/beedotkiran/Lidar_For_AD_references) - A list of references on lidar point cloud processing for autonomous driving.
 - [Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research) - Track Advancement of SLAM 跟踪SLAM前沿动态【2020 version】.
@@ -317,6 +324,7 @@ with GNSS (global navigation satellite system).
 
 ## 17. For Chinese
 
+- [slam_in_autonomous_driving](https://github.com/gaoxiang12/slam_in_autonomous_driving) - 《自动驾驶中的SLAM技术》对应开源代码.
 - [LOAM_NOTED](https://github.com/cuitaixiang/LOAM_NOTED) - loam code noted in Chinese（loam中文注解版）.
 - [LeGO-LOAM_NOTED](https://github.com/wykxwyc/LeGO-LOAM_NOTED) - LeGO-LOAM代码注释与学习.
 - [loam_leanring](https://github.com/shoufei403/loam_leanring) - Include loam_velodyne code and A-LOAM code with chinese explaintion.I also put some papers related to loam in it.
