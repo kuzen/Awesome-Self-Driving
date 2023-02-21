@@ -45,7 +45,6 @@
 
 ## 2. Planning
 
-- [ompl](https://github.com/ompl/ompl) - The Open Motion Planning Library (OMPL).
 - [omg-tools](https://github.com/meco-group/omg-tools) - Optimal Motion Generation-tools: motion planning made easy.
 - [gbplanner_ros](https://github.com/ntnu-arl/gbplanner_ros) - Graph-based Exploration Planner for Subterranean Environments.
 - [path_planner](https://github.com/karlkurzer/path_planner) - Hybrid A* Path Planner for the KTH Research Concept Vehicle.
